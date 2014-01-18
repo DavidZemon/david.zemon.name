@@ -46,7 +46,7 @@
 				<div id="segway">
 					<h3>DIY Segway</h3>
 
-					<p>Upon returning for his final semester at Missouri S&T, David joined the DIY Segway team within IT
+					<p>Upon returning for his final semester at Missouri S&amp;T, David joined the DIY Segway team within IT
 						Research Support Services. The Parallax Propeller was chosen as the MCU of choice due to its
 						cost/performance ratio. With prior Propeller experience, available C libraries, and easy-to-use
 						multi-core architecture, David has been able to quickly get the project on track. Work is still
