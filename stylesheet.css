@@ -3,7 +3,7 @@
 /***********/
 .page {
 	width: 1010px;
-	margin-left: auto; 
+	margin-left: auto;
 	margin-right: auto;
 }
 
@@ -11,9 +11,62 @@ img {
 	border: 0px;
 }
 
-/*** Index ***/
+body {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 46px;
+	color: rgb(0,0, 128);
+	font-family: Ariel, sans-serif;
+}
+
+h2 {
+	color: black;
+	font-size: 110%;
+	font-weight: bold;
+}
+
+h3 {
+	font-style: italic;
+	text-indent: 0;
+	color: black;
+	font-size: 100%;
+}
+
+h4 {
+	test-indent: 0;
+	font-weight: normal;
+}
+
+p {
+	text-align: left;
+	font-size: 90%;
+}
+
+a:link, a:visited {
+	color: #025E91;
+}
+
+a:hover, a:active {
+	color: #025E91;
+	font-style: italic;
+}
+
+/******************/
+/*** Index Page ***/
+/******************/
 #page.index {
 	padding-left: 60px;
+}
+
+.index h2 {
+	color: white;
+}
+
+.index img {
+	cursor: pointer;
 }
 
 #indexHeader h1 {
@@ -21,10 +74,6 @@ img {
 	font-family: Courier New, Comic Sans MS, Comic Sans, serif;
 	color: rgb(0,0, 128);
 	margin-right: 120px;
-}
-
-#personal {
-	float: left;
 }
 
 #professional {
@@ -36,26 +85,18 @@ img {
 	height: 25px;
 }
 
+#personal {
+	float: left;
+}
+
 #personal h2 {
 	font-family: cursive, Times New Roman, serif;
 	height: 25px;
 }
 
-.index h2 {
-	color: white;
-}
-
-.index img {
-	cursor: pointer;
-}
-
 /**************************/
 /*** Professional Pages ***/
 /**************************/
-h2 {
-
-}
-
 .pro-header {
 	width: 100%;
 	margin-bottom: 20px;
@@ -63,6 +104,9 @@ h2 {
 
 #pro-pageContent {
 	width: 100%;
+}
+
+#pro-pageContent p {
 	text-indent: 2em;
 }
 
@@ -108,7 +152,8 @@ h2 {
 #resume table {
 	width: 100%;
 	padding: 20px;
-	background-image:url(images/paper-background.gif)
+	border-spacing: 0;
+	background-image:url(images/Texture0208.jpg)
 }
 
 #resume td {
@@ -130,6 +175,8 @@ td.margin {
 
 #address {
 	float: right;
+}
+#address p {
 	text-align: right;
 }
 
@@ -148,114 +195,97 @@ td.margin {
 	text-align: left;
 	background-color: rgba(153, 204, 255, 0.7);
 	cursor: pointer;
+	margin-bottom: 0;
 }
 
-.right {
-	text-align: right;
+#resume p {
+	margin-bottom: 0;
+	margin-top: 0;
+	float: left;
 }
-
+#resume .date {
+	margin-bottom: 0;
+	margin-top: 0;
+	font-weight: bold;
+	float: right;
+}
+.main-entry {
+	margin-top: 14px;
+}
 .resume-content {
 	display: none;
 }
 
+#resume ul {
+	text-align: left;
+	margin-top: 4px;
+	margin-bottom: 0;
+}
+
+#resume ul li {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
 #resume dl {
 	text-align: left;
+	font-size: 90%;
 }
 
 #resume dt {
 	font-weight: bold;
-	font-size: 100%;
 	margin-top: 16px;
 }
 
-#experience-content dd {
+#resume dd {
 	margin-left: 0;
 }
-
-#experience-content dt, #experience-content dd {
-	display: inline;
-	margin-top: 16px;
+.clear {
+	clear: both;
 }
 
 /**********************/
 /*** Personal Pages ***/
 /**********************/
-body {
-	text-align: center;
-	font-family: sans-serif;
-}
-
-h1 {
-	font-size: 46px;
-	color: rgb(0,0, 128);
-	font-family: Ariel, sans-serif;
-}
-
-h2 {
-	color: black;
-	font-size: 100%;
-}
-
-h3 {
-	font-weight: 100%;
-	color: red;
-	font-style: underline;
-	font-size: 100%;
-	font-weight: normal;
-}
-
-p {
-	text-align: left;
-}
-
-a:link, a:visited {
-	color: #025E91;
-}
-
-a:hover, a:active {
-	color: #025E91;
-	font-style: italic;
-}
-
-#lists	{
+#lists {
 	width: 40em;
 	text-align: left;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#header {
+.personal-header {
 	height: 200px;
 	width: 55em;
 	color: rgb(51, 51, 255);
 }
 
-#header img {
+.personal-header img {
 	float: left;
 }
 
-#header a:link, a:visited, a:hover, a:active {
+.personal-header a:link, a:visited, a:hover, a:active {
 	color: blue;
 	font-style: normal;
 	text-decoration: none;
 }
 
-#footer {
+.personal-footer {
 	align: center;
 }
 
-#menu{
+.personal-menu {
 	float: left;
 	font-weight: bold;
 	font-size: 26px;
 }
 
-#menu a:link, #menu a:visited {
+.personal-menu a:link, .personal-menu a:visited {
 	color: rgb(0,0, 128);
 	text-decoration: none;
 }
 
-#menu a:hover, #menu a:active {
+.personal-menu a:hover, .personal-menu a:active {
 	color: #0000fa;
 	font-style: normal;
 	border: 2px solid #0000fa;
@@ -270,7 +300,7 @@ a:hover, a:active {
 	padding: 0;
 }
 
-#secondaryNav ul li{
+#secondaryNav ul li {
 	text-align: center;
 	display: inline;
 	padding-left: 5px;

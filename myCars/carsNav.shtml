@@ -4,10 +4,14 @@
 		<li><a href="90corrado.shtml" id="90corradoNav">1990 VW Corrado G60</a></li>
 		<li><a href="88saab.shtml" id="88saabNav">1988 Saab 900S</a></li>
 	</ul>
-	
+
 	<ul>
 		<li><a href="93saab.shtml" id="93saabNav">1993 Saab 900S</a></li>
 		<li><a href="89saab.shtml" id="89saabNav">1989 Saab 900S</a></li>
 		<li><a href="91turbo.shtml" id="91turboNav">1991 Saab 900 Turbo</a></li>
+	</ul>
+
+	<ul>
+		<li><a href="89spg.shtml" id="89spgNav">1989 Saab 900 SPG</a></li>
 	</ul>
 </div>

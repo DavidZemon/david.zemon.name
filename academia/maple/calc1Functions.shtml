@@ -18,11 +18,11 @@
 
 		</script>
 	</head>
-	
+
 	<body>
-		
+
 		<!--#include virtual="headerAcademia.shtml" -->
-		
+
 		<table>
 			<tr>
 				<td id="mapleNav">
@@ -33,10 +33,10 @@
 					Begin editing of individual pages
 					----------------------------- -->
 					<h3>Calculus 1/Algebra: Functions</h3>
-					
-					<p>Everything math related from calculus forward is in terms of functions. We've got f(t), y(x), x(t), 
-					L(s) and all sorts of stuff. Maple has a few ways to deal with such functions. The first, we've already 
-					covered. Define a variable as a function: f:=x^2 + blah blah blah. You can then use the subs command 
+
+					<p>Everything math related from calculus forward is in terms of functions. We've got f(t), y(x), x(t),
+					L(s) and all sorts of stuff. Maple has a few ways to deal with such functions. The first, we've already
+					covered. Define a variable as a function: f:=x^2 + blah blah blah. You can then use the subs command
 					to give you f(x). But, who wants to type out so many subs commands?</p>
 					<blockquote id="code">
 						restart
@@ -47,11 +47,11 @@
 						<br>f(7)
 						<br>solve(f(t))
 					</blockquote>
-					<p>Using this notation can make your math easier to read, more accurate, and allow for fewer Maple 
-					commands. The fewer Maple commands you have, the easier it is to re-read your work. Do take notice, the 
-					variable f is still undefined. If you define f(t) as a function, f is still an undefined variable. 
+					<p>Using this notation can make your math easier to read, more accurate, and allow for fewer Maple
+					commands. The fewer Maple commands you have, the easier it is to re-read your work. Do take notice, the
+					variable f is still undefined. If you define f(t) as a function, f is still an undefined variable.
 					You must type out f(t) every time you want to use your function.</p>
-					
+
 					<blockquote id="code">
 						restart
 						<br>f(t):=x^2-49
@@ -61,17 +61,17 @@
 						<br>f(7)
 						<br>solve(f(t))
 					</blockquote>
-					<p>Pretty simple concept here: you can also define a function by typing f(t):=blah blah blah. Maple 
+					<p>Pretty simple concept here: you can also define a function by typing f(t):=blah blah blah. Maple
 					will ask if you intend to define a function - simply go with the default choice and hit enter again.</p>
 					<!-- --------------------------
 					End editing of individual pages
-					--------------------------- --> 
+					--------------------------- -->
 				</td>
 			</tr>
 		</table>
-		
+
 		<!--#include virtual="../footer.shtml" -->
-		
+
 	</body>
 
 </html>

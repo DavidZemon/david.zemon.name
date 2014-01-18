@@ -6,7 +6,7 @@
 		<title>David Zemon's '93 Saab</title>
 
 		<link href="http://david.zemon.name/stylesheet.css" rel="stylesheet" type="text/css">
-		
+
 		<script type="text/javascript">
 
 		  var _gaq = _gaq || [];
@@ -21,27 +21,35 @@
 
 		</script>
 	</head>
-	
+
 	<body>
 		<div class="page">
 			<!--#include virtual="../header.shtml" -->
-			
+
 			<div id="pageContent">
 				<!-------------------
 				BEGIN PAGE EDITS HERE
 				-------------------->
 				<h2>1993 Saab 900S</h2>
-				
+
 				<!--#include virtual="carsNav.shtml" -->
-				
+
 				<a href="http://swimdude0614.smugmug.com/Cars/My-Car/1993-900/" target="_blank"><img alt="'93 Saab" src="93saab.jpg"></a>
-				
-				<p>This is my latest love affair. She's quite the beauty really.</p>
+
+				<p>Purchased in late fall of 2009 for $800, my '93 was one of my absolute favorites.
+				With only 132,000 miles, it was an excellent car and hopefully still is for its
+				current owner. The excellent interior was matched perfectly with a dark, metallic
+				green paint that enjoyed frequent hand waxes. She ran very strong with the 2.1L
+				naturally aspirated engine and the low-end torque never ceased to amaze me. I write
+				this now, two years after selling it, and have honestly forgotten most of what made
+				her unique. Mostly what I remember is 100% reliability. In two years of driving, the
+				only necessary repair was replacement of the passenger side inner-driver. The sale
+				was made in early fall/late summer of 2011 to a friend of STL Swede Speed for $1,000.</p>
 				<!-------------------
 				-END PAGE EDITS HERE-
 				-------------------->
 			</div>
-			
+
 			<!--#include virtual="../footer.shtml" -->
 		</div>
 	</body>

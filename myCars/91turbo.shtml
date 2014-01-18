@@ -6,7 +6,7 @@
 		<title>David Zemon's '91 Saab Turbo</title>
 
 		<link href="http://david.zemon.name/stylesheet.css" rel="stylesheet" type="text/css">
-		
+
 		<script type="text/javascript">
 
 		  var _gaq = _gaq || [];
@@ -21,26 +21,40 @@
 
 		</script>
 	</head>
-	
+
 	<body>
 		<div class="page">
 			<!--#include virtual="../header.shtml" -->
-			
+
 			<div id="pageContent">
 				<!-------------------
 				BEGIN PAGE EDITS HERE
 				-------------------->
 				<h2>1991 Saab 900 Turbo</h2>
-				
+
 				<!--#include virtual="carsNav.shtml" -->
-				
+
 				<a target="_blank" href="http://gallery.wonderart.us/Cars/Saab-900-Turbo/"><img alt="'91 Turbo" src="91turbo.jpg"></a>
-				
+
+				<p>Purchased as an upgrade from my '93, it has been a constant love/hate
+				relationship with her. The purchase story has its own
+				<a target="_blank" href="http://saabguy.blogspot.com/2011/07/my-new-1991-saab-900-turbo.html">
+				blog entry</a> on my [rarely used] blog. In short, I acquired her for
+				$800 from Flint, Michigan and the fuel pump failed 60 miles out at 11pm
+				on July 4, 2011. Since then, no major repairs have been necessary but I
+				quickly discovered unacceptable frame rust at the passenger-side
+				lower-front control arm mount. Combining that boost problems and general
+				"so-so" condition, a replacement in the summer of 2013 should come as
+				no surprise to anyone. 130,000 miles were on the clock at purchase and
+				she now sits at aproximately 150,000. Many good parts were installed
+				during my time with her, and I plan on taking every bit possible to be
+				used on my next endeavour.</p>
+
 				<!-------------------
 				-END PAGE EDITS HERE-
 				-------------------->
 			</div>
-			
+
 			<!--#include virtual="../footer.shtml" -->
 		</div>
 	</body>
