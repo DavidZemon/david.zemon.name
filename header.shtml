@@ -1,0 +1,17 @@
+<div id="header">
+	<a href="index.shtml"><img src="http://david.zemon.name/images/logo-inverse.jpg" border="0" alt="Saab SPG">
+	<h1>David Zemon
+	<br>Saab Guy for Life</h1></a>
+</div>
+
+<div id="menu">
+	<p>
+		<a href="http://david.zemon.name/">Home</a>
+		<br><a href="http://david.zemon.name/myCars/index.shtml">My Cars</a>
+		<br><a href="http://david.zemon.name/academia/">Academia</a>
+		<br><a href="http://swimdude0614.smugmug.com/" target="_blank">Gallery</a>
+		<br><a href="http://saabguy.blogspot.com" target="_blank">Blog</a>
+		<br><a href="http://www.stlswedespeed.com/" target="_blank">STL Swede Speed</a>
+		<br><a href="mailto:david@stlswedespeed.com">Contact</a>
+	</p>
+</div>

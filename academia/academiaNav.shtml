@@ -1,0 +1,7 @@
+<div id="secondaryNav">
+	<ul>
+		<li><a href="index.shtml" id="gradesheetNav">Academia Home</a></li>
+		<li><a href="gradeSheet.shtml" id="gradesheetNav">Grade Sheet</a></li>
+		<li><a href="maple/" id="mapleNav">Maple</a></li>
+	</ul>
+</div>

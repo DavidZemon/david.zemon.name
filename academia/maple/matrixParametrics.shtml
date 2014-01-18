@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<title>Academia - Maple</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link href="stylesheet.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-23696856-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+	</head>
+	
+	<body>
+		
+		<!--#include virtual="headerAcademia.shtml" -->
+		
+		<table>
+			<tr>
+				<td id="mapleNav">
+					<!--#include virtual="mapleHeader.shtml" -->
+				</td>
+				<td id="content">
+					<!-- ----------------------------
+					Begin editing of individual pages
+					----------------------------- -->
+					<h3>Vector and Matrix: Parametric Equations</h3>
+					
+					<p>Parametric equations change the plot command significantly. Each set of parametric equations 
+					is wrapped in square brackets, and inside each set of square brackets is three or four arguments, 
+					depending on 2D or 3D. Your first two arguments (or three, for 3D) are your x(t) and y(t) (and 
+					z(t)) and your third is a range for t.</p>
+					<blockquote id="code">
+						restart
+						<br>xt := t
+						<br>yt := t^2
+						<br>plot([xt,yt,t=-5..5])
+					</blockquote>
+					
+					<p>Plotting two parametric equations doesn't change a whole lot. Let's do two spirals:</p>
+					<blockquote id="code">
+						restart
+						<br>xt := (4/5)*t*cos(t)
+						<br>yt := t*sin(t)
+						<br>xt2 := (2/5)*t*cos(t)
+						<br>yt2 := (3/5)*t*sin(t)
+						<br>plot({[xt, yt, t = 0 .. 20], [xt2, yt2, t = 0 .. 20]})
+					</blockquote>
+					<p>Arguments such as color, labels, title, etc all work just the same.</p>
+					<!-- --------------------------
+					End editing of individual pages
+					--------------------------- --> 
+				</td>
+			</tr>
+		</table>
+		
+		<!--#include virtual="footerAcademia.shtml" -->
+		
+	</body>
+
+</html>

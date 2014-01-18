@@ -1,0 +1,166 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+
+<title>David Zemon's Resume</title>
+
+<link href="http://david.zemon.name/stylesheet.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="../javascript.js"></script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push([ '_setAccount', 'UA-23696856-1' ]);
+	_gaq.push([ '_trackPageview' ]);
+
+	(function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www')
+				+ '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+</head>
+
+<body>
+	<div class="page" id="resume">
+		<table>
+			<tr class="resume-header">
+				<td class="margin"></td>
+
+				<td>
+					<h1>David Zemon</h1>
+
+					<div id="contact">
+						<p>(636) 290-8097 <br> <a href="mailto:david.zemon@mst.edu">david.zemon@mst.edu</a>
+							<br> <a href="../downloads/David-Zemon--Resume--Online.pdf">Download a copy</a> of
+							this resume
+						</p>
+					</div>
+
+					<div id="address">
+						<p>1135 Leonard Ave, Apt A, Rolla, MO 65401</p>
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td class="margin"></td>
+
+				<td>
+					<h2 id="objective" class="resume-heading">Objective</h2>
+					<div id="objective-content" class="resume-content">
+						<p>Begin a full-time career in computer engineering in June 2013</p>
+					</div>
+
+					<h2 id="education" class="resume-heading">Education</h2>
+					<div id="education-content" class="resume-content">
+						<p>Missouri University of Science and Technology &#45; Rolla, Missouri &#45; Jan
+							2011 through present <br>Junior B.S. in Computer Engineering, June 2013 &#45;
+							<b>Cumulative GPA: 3.01; In-major: 3.56 (4.0 scale)</b>
+						</p>
+
+						<p>Rose-Hulman Institute of Technology &#45; Terre Haute, Indiana &#45; Jul 2009
+							through Nov 2010</p>
+					</div>
+
+					<h2 id="peopleSkills" class="resume-heading">People Skills</h2>
+					<div id="peopleSkills-content" class="resume-content">
+						<dl>
+							<dt>Articulate:</dt>
+							<dd>Able to clearly express engineering ideas and opinions in a professional
+								manner</dd>
+
+							<dt>Determined:</dt>
+							<dd>Self-taught auto mechanic; replaced my transmission, repaired my head
+								gasket, and all major or minor repairs with occasional guidance from experts</dd>
+
+							<dt>Dedicated:</dt>
+							<dd>Learned extreme self-motivation through eight seasons on a year-round swim
+								team</dd>
+
+							<dt>Team Player:</dt>
+							<dd>Enjoy tutoring peers; Awarded Stingray of the Year by teammates based on
+								sportsmanship, loyalty, and charisma; Team captain in high school</dd>
+
+							<dt>Ambitious:</dt>
+							<dd>Founded two profitable businesses; Founded St. Louis Saab/Volvo club and
+								increased membership from 20 to 75 in three years</dd>
+						</dl>
+					</div>
+
+					<h2 id="geek-skills" class="resume-heading">Geek Skills</h2>
+					<div id="geek-skills-content" class="resume-content">
+						<dl>
+							<dt>Self-Tuning EFI Controller:</dt>
+							<dd>Parallax Propeller; Senior project will control the fuel injection of a 4-cycle
+								engine and auto-tune fuel maps</dd>
+
+							<dt>Computed Interpretive Dance:</dt>
+							<dd>ARM Cortex M4; Creates rhythmic and harmonic tune based on accelerometer data
+								during dance</dd>
+
+							<dt>Xdmf Transformer:</dt>
+							<dd>Python 2.7; Convert datasets with variable forms to ParaView
+								readable Xdmf format; Optimized for gigabyte and terabyte scale datasets</dd>
+
+							<dt>Key Engineering Courses:</dt>
+							<dd>Real Time Systems, Digital Computer Design, Digital Systems Design,
+								Operating Systems, AC &amp; DC Circuits, Intro to Electronic Devices</dd>
+
+							<dt>Programming Languages:</dt>
+							<dd>Python, C++, Embedded C, ARM Asm, 8051 Asm, Propeller Asm, Verilog, Git,
+								MATLAB</dd>
+
+							<dt>Software:</dt>
+							<dd>Highly proficient with Microsoft Windows XP/7; Ubuntu Linux (BASH and
+								GUI), Microsoft Office, LibreOffice, Eclipse (CDT, PyDev, Web Dev), Keil, MPLab,
+								Quartus II, ModelSim, Maple, Vim</dd>
+						</dl>
+					</div>
+
+					<h2 id="experience" class="resume-heading">Experience</h2>
+					<div id="experience-content" class="resume-content">
+						<p><b>Project Lead/Student Technician:</b> Missouri S&amp;T IT Research Support
+							Successfully leading a four-person team in the design of a revolutionary analytical
+							tool to be displayed at Dell World 2012 and Super Computing 2012; Personally
+							responsible for Xdmf Transformer</p>
+
+						<p><b>Newsletter Design Layout/Webmaster:</b> Student Design and Experiential
+							Learning Center, 02/11 to 12/11 <br>Maintain website, design brochures and
+							newsletters for print, ensure proper grammar throughout the site</p>
+
+						<p><b>Co-President, Webmaster:</b> STL Swede Speed, 07/08 to 7/12 <br>Organize
+							club events, arrange for meeting spots, advertise to public, keep forums
+							clean/on-topic</p>
+
+						<p><b>Owner:</b> David's Wash and Wax, 06/10 to 9/10 <br>Detailed clients'
+							automobiles. Founded business in late June; turned profit within two months. Left
+							the still-growing business with a backlog of repeat business to return to college</p>
+
+						<p><b>Project Lead (RX-7 Engine), Treasurer, Webmaster:</b> Team Rose
+							Motorsports, 04/10 to 11/10, <br>Responsible for balancing budget, reimbursing
+							students for budgeted items, and being a strong leader in the club; manage website
+							and mailing list; stay knowledgeable in all aspects related to team</p>
+
+						<p><b>Owner:</b> David's Custom Built Computers, 09/06 to 07/09</p>
+
+						<p><b>Back of the House:</b> Fazoli's, 12/08 to 06/09</p>
+
+						<p><b>Lifeguard:</b> St. Charles County Family YMCA, 06/07 to 07/08</p>
+					</div>
+
+					<h2 id="references" class="resume-heading">References</h2>
+					<div id="references-content" class="resume-content">
+						<p>References available upon request.</p>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

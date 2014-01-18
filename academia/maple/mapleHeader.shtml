@@ -1,0 +1,35 @@
+<h2>Maple</h2>
+<ol>
+	<li><a href="index.shtml">Introduction &amp; Setup</a></li>
+	<li><a href="gettingStarted.shtml">Getting Started</a></li>
+	<li>Formatting<ul>
+		<li><a href="formattingGeneral.shtml">General</a></li>
+		<li><a href="formattingKeyboardShortcuts.shtml">Keyboard Shortcuts</a></li>
+	</ul></li>
+	<li><a href="printing.shtml">Printing</a></li>
+	<li>Calculus 1/Algebra Commands<ul>
+		<li><a href="calc1Solve.shtml">Solve &amp; Fsolve</a></li>
+		<li><a href="calc1Subs.shtml">Subs</a></li>
+		<li><a href="calc1Functions.shtml">Functions</a></li>
+		<li><a href="calc1Plot.shtml">Plot</a></li>
+		<li><a href="nutella.shtml">Nutella</a></li>
+		<li><a href="calc1Diff.shtml">Diff</a></li>
+		<li><a href="calc1Int.shtml">Int</a></li>
+	</ul></li>
+	<li>Vector &amp; Matrix Commands<ul>
+		<li><a href="matrixParametrics.shtml">Parametric Equations</a></li>
+		<li><a href="matrixVectorBasics.shtml">Vector Basics</a></li>
+	</ul></li>
+	<li>Differential Equations Commands<ul>
+		<li><a href="deDsolve.shtml">Dsolve</a></li>
+		<li><a href="deLaplace.shtml">Laplace Transforms</a></li>
+	</ul></li>
+	<li>Debugging<ul>
+		<li><a href="debugCommonErrors.shtml">Common Errors</a></li>
+	</ul></li>
+	<li>Miscellaneous Commands<ul>
+		<li><a href="numberConversions.shtml">Number Conversions</a></li>
+		<li><a href="miscWith.shtml">With</a></li>
+	</ul></li>
+</ol>
+<p style="text-indent: 0;">Download the Maple practice sheet <a href="http://www.stlswedespeed.com/david.zemon/downloads/maplePractice.mw">here</a>.</p>

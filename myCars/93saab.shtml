@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+
+		<title>David Zemon's '93 Saab</title>
+
+		<link href="http://david.zemon.name/stylesheet.css" rel="stylesheet" type="text/css">
+		
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-23696856-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+	</head>
+	
+	<body>
+		<div class="page">
+			<!--#include virtual="../header.shtml" -->
+			
+			<div id="pageContent">
+				<!-------------------
+				BEGIN PAGE EDITS HERE
+				-------------------->
+				<h2>1993 Saab 900S</h2>
+				
+				<!--#include virtual="carsNav.shtml" -->
+				
+				<a href="http://swimdude0614.smugmug.com/Cars/My-Car/1993-900/" target="_blank"><img alt="'93 Saab" src="93saab.jpg"></a>
+				
+				<p>This is my latest love affair. She's quite the beauty really.</p>
+				<!-------------------
+				-END PAGE EDITS HERE-
+				-------------------->
+			</div>
+			
+			<!--#include virtual="../footer.shtml" -->
+		</div>
+	</body>
+</html>

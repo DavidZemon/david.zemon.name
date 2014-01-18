@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<title>Academia - Maple</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link href="stylesheet.css" rel="stylesheet" type="text/css">
+	</head>
+	
+	<body>
+		
+		<!--#include virtual="headerAcademia.shtml" -->
+		
+		<table>
+			<tr>
+				<td id="mapleNav">
+					<!--#include virtual="mapleHeader.shtml" -->
+				</td>
+				<td id="content">
+					<!-- ----------------------------
+					Begin editing of individual pages
+					----------------------------- -->
+					<h3>Miscellaneous: Number Conversions</h3>
+					
+					<p>Maple will also do all of your number conversions, including binary, decimal, octal, hexadecimal, ternary, etc. 
+					We will use the convert command with special arguments this time - convert(n, output, r) - where n is the input 
+					number you want converted, output is the base (in English) which you would like n converted to, and r is the radix of n.</p>
+					
+					<blockquote id="code">
+						restart;
+						<br>convert(1001, decimal, 2);
+						<br>convert(11010, hex, 2);
+						<br>convert(5304, binary, 10);
+						<br>convert("1A3", decimal, 16);
+					</blockquote>
+					
+					<p>Notice that when converting from a hexadecimal number, you must use quotes. r must also be an integer between 2 and 36.</p>
+					<!-- --------------------------
+					End editing of individual pages
+					--------------------------- --> 
+				</td>
+			</tr>
+		</table>
+		
+		<!--#include virtual="footerAcademia.shtml" -->
+		
+	</body>
+
+</html>
