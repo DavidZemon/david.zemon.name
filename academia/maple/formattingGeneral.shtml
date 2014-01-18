@@ -15,7 +15,6 @@
 			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		  })();
-
 		</script>
 	</head>
 
@@ -34,26 +33,23 @@
 					----------------------------- -->
 					<h3>Formatting: General</h3>
 
-					<p>Formatting is key if you plan on receiving any credit for your work. People, be they your teacher,
-					professor, grader, peer, or what have you, <i>must</i> be able to read your work. This page will show
-					you how to format your work in a way that is easy and quick to read. I'll also give you tips in
-					formatting to avoid errors.</p>
+					<p>Formatting is key if you plan on receiving any credit for your work. People, be they your
+						teacher, professor, grader, peer, or what have you, <i>must</i> be able to read your work. This
+						page will show you how to format your work in a way that is easy and quick to read. I'll also
+						give you tips in formatting to avoid errors.</p>
 
 					<dl>
 						<dt>Collapsible Headings</dt>
-							<dd>My favorite part of Maple is the inclusion of collapsible headings. To create a new heading, use
-							the keyboard shortcut <span id="code">control + period</span>. If you've already started your problem
-							and have many lines of code, highlight them all and press <span id="code">control + period</span>.
-							id="code">control + period</span>. If you've already started your
-						problem and have many lines of code, highlight them all and press
-						<span id="code">control + period</span>. Download an example of
-						how I use collapsible headings <a
-							href="http://www.stlswedespeed.com/david.zemon/downloads/ExampleNotes.mw"><u>here</u></a>.<br>
-						*Note: to undo a heading, use <span id="code">control +
-							comma</span>.
-					</dd>
+						<dd>My favorite part of Maple is the inclusion of collapsible headings. To create a new heading,
+							use the keyboard shortcut <span id="code">control + period</span>. If you've already started
+							your problem and have many lines of code, highlight them all and press <span id="code">control + period</span>.
+							Download an example of how I use collapsible headings <a
+									href="http://www.stlswedespeed.com/david.zemon/downloads/ExampleNotes.mw"><u>here</u></a>.
+							<br>
+							*Note: to undo a heading, use <span id="code">control + comma</span>.
+						</dd>
 
-				</dl>
+					</dl>
 
 					<p></p>
 					<!-- --------------------------
