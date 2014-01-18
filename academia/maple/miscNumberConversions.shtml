@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Academia - Maple</title>
@@ -20,7 +20,7 @@
 					<!-- ----------------------------
 					Begin editing of individual pages
 					----------------------------- -->
-					<h3>Miscellaneous: Number Conversions</h3>
+					<h3>Miscellaneous Commands: Number Conversions</h3>
 
 					<p>Maple will also do all of your number conversions, including binary, decimal, octal, hexadecimal,
 						ternary, etc. We will use the convert command with special arguments this time - convert(n,

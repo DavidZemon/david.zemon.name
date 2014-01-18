@@ -8,7 +8,7 @@
 }
 
 img {
-	border: 0px;
+	border: 0;
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 
 h1 {
 	font-size: 46px;
-	color: rgb(0,0, 128);
+	color: rgb(0, 0, 128);
 	font-family: Ariel, sans-serif;
 }
 
@@ -36,7 +36,6 @@ h3 {
 }
 
 h4 {
-	test-indent: 0;
 	font-weight: normal;
 }
 
@@ -72,7 +71,7 @@ a:hover, a:active {
 #indexHeader h1 {
 	font-size: 250%;
 	font-family: Courier New, Comic Sans MS, Comic Sans, serif;
-	color: rgb(0,0, 128);
+	color: rgb(0, 0, 128);
 	margin-right: 120px;
 }
 
@@ -81,7 +80,7 @@ a:hover, a:active {
 }
 
 #professional h2 {
-	font-family: Arial;
+	font-family: Arial, serif;
 	height: 25px;
 }
 
@@ -115,7 +114,7 @@ a:hover, a:active {
 	padding: 0;
 }
 
-.pro-header ul li{
+.pro-header ul li {
 	text-align: center;
 	font-weight: bold;
 	font-size: 18px;
@@ -130,7 +129,7 @@ a:hover, a:active {
 }
 
 .pro-header a:link, .pro-header a:visited {
-	color: rgb(0,0, 128);
+	color: rgb(0, 0, 128);
 	text-decoration: none;
 }
 
@@ -153,7 +152,7 @@ a:hover, a:active {
 	width: 100%;
 	padding: 20px;
 	border-spacing: 0;
-	background-image:url(images/Texture0208.jpg)
+	background-image: url(images/Texture0208.jpg)
 }
 
 #resume td {
@@ -161,12 +160,12 @@ a:hover, a:active {
 }
 
 tr.resume-header td {
-	border-bottom: 5px solid rgb(0,0, 128);
+	border-bottom: 5px solid rgb(0, 0, 128);
 }
 
 td.margin {
 	width: 70px;
-	border-right: 5px solid rgb(0,0, 128);
+	border-right: 5px solid rgb(0, 0, 128);
 }
 
 #contact {
@@ -176,6 +175,7 @@ td.margin {
 #address {
 	float: right;
 }
+
 #address p {
 	text-align: right;
 }
@@ -190,7 +190,7 @@ td.margin {
 }
 
 #resume h2 {
-	color: rgb(0,0, 128);
+	color: rgb(0, 0, 128);
 	font-family: Times New Roman, serif;
 	text-align: left;
 	background-color: rgba(153, 204, 255, 0.7);
@@ -203,15 +203,18 @@ td.margin {
 	margin-top: 0;
 	float: left;
 }
+
 #resume .date {
 	margin-bottom: 0;
 	margin-top: 0;
 	font-weight: bold;
 	float: right;
 }
+
 .main-entry {
 	margin-top: 14px;
 }
+
 .resume-content {
 	display: none;
 }
@@ -240,6 +243,7 @@ td.margin {
 #resume dd {
 	margin-left: 0;
 }
+
 .clear {
 	clear: both;
 }
@@ -271,7 +275,7 @@ td.margin {
 }
 
 .personal-footer {
-	align: center;
+	align-content: center;
 }
 
 .personal-menu {
@@ -281,7 +285,7 @@ td.margin {
 }
 
 .personal-menu a:link, .personal-menu a:visited {
-	color: rgb(0,0, 128);
+	color: rgb(0, 0, 128);
 	text-decoration: none;
 }
 
@@ -313,7 +317,7 @@ td.margin {
 }
 
 #secondaryNav a:link, #secondaryNav a:visited {
-	color: rgb(0,0, 128);
+	color: rgb(0, 0, 128);
 	text-decoration: none;
 }
 

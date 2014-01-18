@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Academia - Maple</title>
@@ -6,15 +6,18 @@
 		<link href="stylesheet.css" rel="stylesheet" type="text/css">
 		<script type="text/javascript">
 
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-23696856-1']);
-		  _gaq.push(['_trackPageview']);
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-23696856-1']);
+			_gaq.push(['_trackPageview']);
 
-		  (function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
+			(function () {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
 
 		</script>
 	</head>
@@ -35,31 +38,35 @@
 					<h3>What is Maple</h3>
 
 					<p>Maple is a calculator. More specifically, Maple is a calculator on really strong steroids. The
-					kind that make scrawny wimpy kids into huge football players. Or... your computer into the biggest
-					and baddest calculator you've ever seen. Type one quick command and Maple will solve an integral.
-					Type another command and it will solve a system of equations, or matrix multiplication. Another
-					command solves any differential equation you can come up with. Maple makes your TI-84 look like
-					your dad's sliderule (no offense to sliderules... they come in handy from time to time).</p>
+						kind that make scrawny wimpy kids into huge football players. Or... your computer into the
+						biggest and baddest calculator you've ever seen. Type one quick command and Maple will solve an
+						integral. Type another command and it will solve a system of equations, or matrix
+						multiplication. Another command solves any differential equation you can come up with. Maple
+						makes your TI-84 look like your dad's sliderule (no offense to sliderules... they come in handy
+						from time to time).</p>
 
 					<h3>First Time Setup</h3>
 
 					<ol>
 						<li>Open Maple. If there is a window with one of those check boxes that make it never show up
-						again... I suggest clicking the check box.</li>
+							again... I suggest clicking the check box.
+						</li>
 						<li>At the top menu, choose "Tools -&#62; Options"</li>
 						<li>Choose the third tab "Interface"</li>
 						<li>Select the drop down menu with description: "Default format for new worksheets" and choose
-						"Worksheet" instead of the default, "Document"</li>
+							"Worksheet" instead of the default, "Document"
+						</li>
 						<li>At the bottom, click "Apply globally"</li>
 						<li>Close Maple and reopen it</li>
 					</ol>
 
 					<p>In the days to come I will post instructions for getting started with Maple. Commands to try and
-					tricks to making maple not hate you (as much). For those of you with programming experience, think of
-					Maple as just another programming language. Learn the language and you'll do fine.</p>
+						tricks to making maple not hate you (as much). For those of you with programming experience,
+						think of Maple as just another programming language. Learn the language and you'll do fine.</p>
+
 					<p>To start, try using simple calculator commands that you might use on a TI-30 or the like. If you
-					need something more complex, use the graphical functions in the left-hand tool bar. If you have specific
-					questions, as always, feel free to contact me via the link at the bottom.</p>
+						need something more complex, use the graphical functions in the left-hand tool bar. If you have
+						specific questions, as always, feel free to contact me via the link at the bottom.</p>
 					<!-- --------------------------
 					End editing of individual pages
 					--------------------------- -->

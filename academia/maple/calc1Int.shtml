@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Academia - Maple</title>
@@ -6,23 +6,26 @@
 		<link href="stylesheet.css" rel="stylesheet" type="text/css">
 		<script type="text/javascript">
 
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-23696856-1']);
-		  _gaq.push(['_trackPageview']);
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-23696856-1']);
+			_gaq.push(['_trackPageview']);
 
-		  (function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
+			(function () {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
 
 		</script>
 	</head>
-	
+
 	<body>
-		
+
 		<!--#include virtual="headerAcademia.shtml" -->
-		
+
 		<table>
 			<tr>
 				<td id="mapleNav">
@@ -33,41 +36,47 @@
 					Begin editing of individual pages
 					----------------------------- -->
 					<h3>Calculus 1/Algebra: Int</h3>
-					
-					<p>Int is the command you'll use nearly every time you open Maple. INTegration - pretty simple really, 
-					but there is more to it than with the diff command. There are times your teacher or professor might 
-					ask you to setup an integral, not evaluate it. In this case, do <i>not</i> use the graphical version 
-					of the command. You must type it out. See the below example:</p>
+
+					<p>Int is the command you'll use nearly every time you open Maple. INTegration - pretty simple
+						really, but there is more to it than with the diff command. There are times your teacher or
+						professor might ask you to setup an integral, not evaluate it. In this case, do <i>not</i> use
+						the graphical version of the command. You must type it out. See the below example:</p>
 					<blockquote id="code">
 						restart
-						<br>f:=x^2-5x+10
-						<br>int(f,x)
-						<br>Int(f,x) --- (take note, the 'I' here is capitalized)
+						<br>
+						f:=x^2-5x+10
+						<br>
+						int(f,x)
+						<br>
+						Int(f,x) --- (take note, the 'I' here is capitalized)
 					</blockquote>
-					<p>The first argument is the function to be integrated - the second argument is your differential. If 
-					no range is specified, it is assume to be an indefinite integral, and will be evaluated as such. <span 
-					id="caution">BE VERY CAREFUL!!! Maple does not know about the integrating constant!</span> We all know 
-					that the integral of x is (1/2)*x^2+C... but Maple doesn't. Maple will not include the "+C". You need 
-					to add this in yourself.</p>
-					
-					<p>Definite integrals are very similar, just add a range to your variable as you would with fsolve, 
-					plot, or any other command of the sort.</p>
+					<p>The first argument is the function to be integrated - the second argument is your differential.
+						If no range is specified, it is assume to be an indefinite integral, and will be evaluated as
+						such. <span
+								id="caution">BE VERY CAREFUL!!! Maple does not know about the integrating constant!</span>
+						We all know that the integral of x is (1/2)*x^2+C... but Maple doesn't. Maple will not include
+						the "+C". You need to add this in yourself.</p>
+
+					<p>Definite integrals are very similar, just add a range to your variable as you would with fsolve,
+						plot, or any other command of the sort.</p>
 					<blockquote id="code">
 						int(f,x=0..3)
-						<br>Int(f,x=0..3)
+						<br>
+						Int(f,x=0..3)
 					</blockquote>
-					
-					<p>The int command is the first command we've run across that can utilize the Maple shortcut: control 
-					+ space (add shift for Linux). To see this, type "int", and press control + space. A menu will appear 
-					with a selection of graphical commands that Maple thinks you might be trying to type. The first will 
-					be the indefinite integral, easy noted because there are no bounds are the integration symbol. The 
-					third is your definite integral, easily noted because of the place-holder bounds, a and b. Notice that, 
-					just like the graphical commands on the left-hand toolbar, there are place holders where they need to 
-					be. After the selecting your choice in the pop-up menu, the first place-holder will be highlighted. 
-					Type what needs to be there, and press tab to jump to the next place holder. If the place holder uses 
-					the same variable that you've previously defined, go ahead and tab to the next spot. When the integral 
-					looks correct, press enter as you would with any other command.</p>
-					
+
+					<p>The int command is the first command we've run across that can utilize the Maple shortcut:
+						control + space (add shift for Linux). To see this, type "int", and press control + space. A
+						menu will appear with a selection of graphical commands that Maple thinks you might be trying to
+						type. The first will be the indefinite integral, easy noted because there are no bounds are the
+						integration symbol. The third is your definite integral, easily noted because of the
+						place-holder bounds, a and b. Notice that, just like the graphical commands on the left-hand
+						toolbar, there are place holders where they need to be. After the selecting your choice in the
+						pop-up menu, the first place-holder will be highlighted. Type what needs to be there, and press
+						tab to jump to the next place holder. If the place holder uses the same variable that you've
+						previously defined, go ahead and tab to the next spot. When the integral looks correct, press
+						enter as you would with any other command.</p>
+
 					<p>Let's go through this again, step-by-step:</p>
 					<ol id="lists">
 						<li>Type "int"</li>
@@ -77,27 +86,29 @@
 						<li>Continue entering and tabbing until the command is complete</li>
 						<li>Press enter to evaluate, as you would with any other command</li>
 					</ol>
-					<p>The purpose of the control + space shortcut is to keep your Maple work clean. Your math will be easily 
-					readable as Math, not as a programming language. Be warned though, the easier your math is to read and debug, 
-					the harder your Maple is to debug. If Maple makes an error, it is far harder to find out what went wrong 
-					when using graphical commands.</p>
-					
+					<p>The purpose of the control + space shortcut is to keep your Maple work clean. Your math will be
+						easily readable as Math, not as a programming language. Be warned though, the easier your math
+						is to read and debug, the harder your Maple is to debug. If Maple makes an error, it is far
+						harder to find out what went wrong when using graphical commands.</p>
+
 					<p>Finally, double and triple integrals are done just the same:</p>
 					<blockquote id="code">
 						g:=x^2*y+y^2+10
-						<br>int(int(g,x),y)
-						<br>Int(Int(g,x),y)
+						<br>
+						int(int(g,x),y)
+						<br>
+						Int(Int(g,x),y)
 					</blockquote>
 					<p>Add ranges to x and y if desired.</p>
 					<!-- --------------------------
 					End editing of individual pages
-					--------------------------- --> 
+					--------------------------- -->
 				</td>
 			</tr>
 		</table>
-		
+
 		<!--#include virtual="../footer.shtml" -->
-		
+
 	</body>
 
 </html>

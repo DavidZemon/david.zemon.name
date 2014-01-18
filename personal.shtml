@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
@@ -11,15 +11,18 @@
 		<script type="text/javascript" src="javascript.js"></script>
 		<script type="text/javascript">
 
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-23696856-1']);
-		  _gaq.push(['_trackPageview']);
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-23696856-1']);
+			_gaq.push(['_trackPageview']);
 
-		  (function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
+			(function () {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
 		</script>
 	</head>
 
@@ -34,8 +37,10 @@
 				<h3>About Me</h3>
 
 				<ul style="text-align: left; width: 25em; margin-left: auto; margin-right: auto;">
-					<li>December 2013 graduate, acquiring B.S. in Computer Engineering</li>
-					<li>Born and raised in St. Charles County, MO</li>
+					<li>Been working on the railroad since January '14 as an application developer</li>
+					<li>Currently residing in Omaha, Nebraska</li>
+					<li>Graduated from Missouri S&amp;T in December 2013 with a B.S. in computer engineering</li>
+					<li>Born and raised in St. Charles County, Missouri</li>
 				</ul>
 
 				<p>Saabs and computers. You'll hear me talk a lot more about Saabs though. They're far easier to get

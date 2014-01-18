@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Academia - Maple</title>
@@ -6,15 +6,18 @@
 		<link href="stylesheet.css" rel="stylesheet" type="text/css">
 		<script type="text/javascript">
 
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-23696856-1']);
-		  _gaq.push(['_trackPageview']);
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-23696856-1']);
+			_gaq.push(['_trackPageview']);
 
-		  (function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
+			(function () {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
 
 		</script>
 	</head>
@@ -36,77 +39,102 @@
 
 					<dl>
 						<dt>The built-in Help</dt>
-							<dd>Maple's built-in help is, unlike most built-in help databases, very useful. Access it one of
-							three ways: Help -&#62; Maple Help, Cntrl + F1, or my preferred way, type "?____" where the blank space
-							is any Maple command or math term you can think of. For instance, to learn some advanced features of
-							the plot command, try typing and executing <span id="code">?plot</span>.</dd>
+						<dd>Maple's built-in help is, unlike most built-in help databases, very useful. Access it one of
+							three ways: Help -&#62; Maple Help, Cntrl + F1, or my preferred way, type "?____" where the
+							blank space is any Maple command or math term you can think of. For instance, to learn some
+							advanced features of the plot command, try typing and executing <span id="code">?plot</span>.
+						</dd>
 
 						<dt><span id="code">"Error, unable to match delimiters"</span></dt>
-							<dd>By far, the most common mistake you'll make is with parenthesis. If Maple returns this error,
-							then you've made a mistake with your parenthesis, curly	brackets, or square brackets. Go back
-							through your code and re-check these items.
-							<br>Tip: placing your cursor to the right of a closing bracket or left of an opening bracket will
-							underline all text between that bracket and it's respective opening or closing bracket.</dd>
+						<dd>By far, the most common mistake you'll make is with parenthesis. If Maple returns this
+							error, then you've made a mistake with your parenthesis, curly brackets, or square brackets.
+							Go back through your code and re-check these items.
+							<br>
+							Tip: placing your cursor to the right of a closing bracket or left of an opening bracket
+							will underline all text between that bracket and it's respective opening or closing bracket.
+						</dd>
 
 						<dt>Maple returns wrong answer &amp; contains variable name rather than numbers</dt>
-							<dd>This most likely occurred because you did not start from your restart command. Maple does not have
-							a set order which it follows. If you type a set of commands in the order you wish them to be carried out,
-							YOU are in charge ensuring they are carried out in that order. You can not simply excecute the
-							final line and assume all lines above it will be executed. Either begin execution at the necessary restart
-							command and proceed executing all commands beneath it, or press the "!!!" button at the top, which will
-							execute all commands from top to bottom in your entire worksheet. This can be a good way to ensure you
-							have everything in order with restarts where they need to be.</dd>
+						<dd>This most likely occurred because you did not start from your restart command. Maple does
+							not have a set order which it follows. If you type a set of commands in the order you wish
+							them to be carried out, YOU are in charge ensuring they are carried out in that order. You
+							can not simply excecute the final line and assume all lines above it will be executed.
+							Either begin execution at the necessary restart command and proceed executing all commands
+							beneath it, or press the "!!!" button at the top, which will execute all commands from top
+							to bottom in your entire worksheet. This can be a good way to ensure you have everything in
+							order with restarts where they need to be.
+						</dd>
 
 						<dt>The command entered is returned without change</dt>
-							<dd>Another one of the most common mistakes is forgetting to load a package. If Maple returns the exact
-							command which you typed, most likely you've forgotten to load a package. For example, if your sheet looks
-							like this:
-							<br><img src="mapleImages/packageNotLoaded.jpg">
-							<br>This means you forgot to add <span id="code">with(inttrans):</span> after your restart command. The
-							laplace command has not been loaded into Maple yet.</dd>
+						<dd>Another one of the most common mistakes is forgetting to load a package. If Maple returns
+							the exact command which you typed, most likely you've forgotten to load a package. For
+							example, if your sheet looks like this:
+							<br>
+							<img src="mapleImages/packageNotLoaded.jpg">
+							<br>
+							This means you forgot to add <span id="code">with(inttrans):</span> after your restart
+							command. The laplace command has not been loaded into Maple yet.
+						</dd>
 
 						<dt>Copying and Pasting</dt>
-							<dd>In short, don't. Copying and pasting while using math-type can screw you up and it's nearly impossible
-							to find where Maple messed up. Do not attempt this if A) you're anything but a Maple pro, or B) you're
-							tight for time and can't risk wasting any of that precious commodity on debugging.
-							<br>However, if you, for some reason, decide to try it despite my warnings,	here are my finding so far.
-							The problem I've run across when using copying &amp; pasting (and I have not figured out why this happens
-							sometimes, and not all the time) is that Maple sees the pasted data as a separate command from the rest
-							of your line. This is fairly easy to spot <b>once you're looking for it</b> because there will be a point
-							in your line where you are unable to backspace any further. If you find that point, <b>delete the entire
-							line</b> and try again, without copying and pasting. Assign a variable to the data you want to use, or just
-							retype it all by hand.</dd>
+						<dd>In short, don't. Copying and pasting while using math-type can screw you up and it's nearly
+							impossible to find where Maple messed up. Do not attempt this if A) you're anything but a
+							Maple pro, or B) you're tight for time and can't risk wasting any of that precious commodity
+							on debugging.
+							<br>
+							However, if you, for some reason, decide to try it despite my warnings, here are my finding
+							so far. The problem I've run across when using copying &amp; pasting (and I have not figured
+							out why this happens sometimes, and not all the time) is that Maple sees the pasted data as
+							a separate command from the rest of your line. This is fairly easy to spot <b>once you're
+								looking for it</b> because there will be a point in your line where you are unable to
+							backspace any further. If you find that point, <b>delete the entire line</b> and try again,
+							without copying and pasting. Assign a variable to the data you want to use, or just retype
+							it all by hand.
+						</dd>
 
 						<dt><span id="code">"RootOf(_Z - BunchOfCrap)"</span></dt>
-							<dd>Try using evalf on this. Sometimes it works. Sometimes it doesn't. If it doesn't, chances are you did
-							something wrong. Perhaps a math major would be able to tell you what this actually means - all I know is
-							that there is some very complex function out there and my answers shouldn't look like it. Recheck your work
-							and look for typos.</dd>
+						<dd>Try using evalf on this. Sometimes it works. Sometimes it doesn't. If it doesn't, chances
+							are you did something wrong. Perhaps a math major would be able to tell you what this
+							actually means - all I know is that there is some very complex function out there and my
+							answers shouldn't look like it. Recheck your work and look for typos.
+						</dd>
 
 						<dt>Solve returns nothing</dt>
-							<dd>The most common reason I've run across this error is because I'm trying to solve a system of equations
-							without entering all of my variables in the second argument.
+						<dd>The most common reason I've run across this error is because I'm trying to solve a system of
+							equations without entering all of my variables in the second argument.
 							<blockquote id="code">
 								restart
-								<br>f := sin(x)+exp((1/100)*y)
-								<br>g := sin(y)+exp(-(1/100)*x)
-								<br>evalf(solve({f = 1, g = 0}, x))
+								<br>
+								f := sin(x)+exp((1/100)*y)
+								<br>
+								g := sin(y)+exp(-(1/100)*x)
+								<br>
+								evalf(solve({f = 1, g = 0}, x))
 							</blockquote>
-							In this case, you need to add the second variable to your solve command - Maple won't solve for <i>only</i>
-							x.
+							In this case, you need to add the second variable to your solve command - Maple won't solve
+							for <i>only</i> x.
 							<blockquote id="code">
-								<br>evalf(solve({f = 1, g = 0}, {x, y}))
-							</blockquote></dd>
+								<br>
+								evalf(solve({f = 1, g = 0}, {x, y}))
+							</blockquote>
+						</dd>
 
-						<dt><span id="code">"Warning, solving for expressions other than names or functions is not recommended."</span></dt>
-							<dd>By "not recommended" Maple actually means there is no way on Earth it's going to let you solve for that.
-							Check your second argument and make sure you didn't make a typo. If that doesn't fix it, then you need to
-							approach the problem a different way because Maple is not accepting your second argument.</dd>
+						<dt><span id="code">"Warning, solving for expressions other than names or functions is not recommended."</span>
+						</dt>
+						<dd>By "not recommended" Maple actually means there is no way on Earth it's going to let you
+							solve for that. Check your second argument and make sure you didn't make a typo. If that
+							doesn't fix it, then you need to approach the problem a different way because Maple is not
+							accepting your second argument.
+						</dd>
 
-						<dt><span id="code">"Error, invalid input: ______ expects ____ arguments, but received _____"</span></dt>
-							<dd>To be honest, this could mean a lot of things. Compare your command with the examples I have here and make
-							all your arguments agree with mine. If you're still having problems, please feel free to ask for further help
-							or use Maple's built-in help command. Contact details are at the bottom, as always.</dd>
+						<dt><span
+								id="code">"Error, invalid input: ______ expects ____ arguments, but received _____"</span>
+						</dt>
+						<dd>To be honest, this could mean a lot of things. Compare your command with the examples I have
+							here and make all your arguments agree with mine. If you're still having problems, please
+							feel free to ask for further help or use Maple's built-in help command. Contact details are
+							at the bottom, as always.
+						</dd>
 					</dl>
 					<!-- --------------------------
 					End editing of individual pages

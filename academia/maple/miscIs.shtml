@@ -18,6 +18,7 @@
 				var s = document.getElementsByTagName('script')[0];
 				s.parentNode.insertBefore(ga, s);
 			})();
+
 		</script>
 	</head>
 
@@ -34,27 +35,17 @@
 					<!-- ----------------------------
 					Begin editing of individual pages
 					----------------------------- -->
-					<h3>Formatting: General</h3>
+					<h3>Miscellaneous Commands: Is</h3>
 
-					<p>Formatting is key if you plan on receiving any credit for your work. People, be they your
-						teacher, professor, grader, peer, or what have you, <i>must</i> be able to read your work. This
-						page will show you how to format your work in a way that is easy and quick to read. I'll also
-						give you tips in formatting to avoid errors.</p>
-
-					<dl>
-						<dt>Collapsible Headings</dt>
-						<dd>My favorite part of Maple is the inclusion of collapsible headings. To create a new heading,
-							use the keyboard shortcut <span id="code">control + period</span>. If you've already started
-							your problem and have many lines of code, highlight them all and press <span id="code">control + period</span>.
-							Download an example of how I use collapsible headings <a
-									href="http://www.stlswedespeed.com/david.zemon/downloads/ExampleNotes.mw">here</a>.
-							<br>
-							*Note: to undo a heading, use <span id="code">control + comma</span>.
-						</dd>
-
-					</dl>
-
-					<p></p>
+					<p>For simple equality comparisons, <span id="code">is</span> is a fantastic tool. Try a simple
+						comparison like the following.</p>
+					<blockquote id="code">
+						restart;
+						<br>
+						complexEq := (sqrt(45*x / y^3) + 4*y)^0;
+						<br>
+						is((sqrt(45*x/y^3)+4*y)^0 = 1);
+					</blockquote>
 					<!-- --------------------------
 					End editing of individual pages
 					--------------------------- -->

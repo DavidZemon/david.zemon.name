@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
@@ -9,20 +9,20 @@
 		<script type="text/javascript" src="../jquery-1.10.2.min.js"></script>
 		<script type="text/javascript" src="../javascript.js"></script>
 		<script type="text/javascript">
-	var _gaq = _gaq || [];
-	_gaq.push([ '_setAccount', 'UA-23696856-1' ]);
-	_gaq.push([ '_trackPageview' ]);
+			var _gaq = _gaq || [];
+			_gaq.push([ '_setAccount', 'UA-23696856-1' ]);
+			_gaq.push([ '_trackPageview' ]);
 
-	(function() {
-		var ga = document.createElement('script');
-		ga.type = 'text/javascript';
-		ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
-				: 'http://www')
-				+ '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0];
-		s.parentNode.insertBefore(ga, s);
-	})();
+			(function () {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+						: 'http://www')
+						+ '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
 		</script>
 	</head>
 
@@ -40,7 +40,7 @@
 
 						<div id="contact">
 
-							<p>(636) 290-8097
+							<p>(636) 395-0126
 								<br>
 								<a href="mailto:david.zemon@mst.edu">david.zemon@mst.edu</a>
 								<br>
@@ -65,8 +65,8 @@
 					<td>
 						<!---------------
 						--- Objective ---
-						---------------->
-						<h2 id="objective" class="resume-heading">Objective</h2>
+						----------------> <h2 id="objective" class="resume-heading">
+						Objective</h2>
 
 						<div id="objective-content" class="resume-content">
 							<div class="main-entry">
@@ -78,8 +78,8 @@
 
 						<!---------------
 						--- Education ---
-						---------------->
-						<h2 id="education" class="resume-heading">Education</h2>
+						----------------> <h2 id="education" class="resume-heading">
+						Education</h2>
 
 						<div id="education-content" class="resume-content">
 							<div class="main-entry">
@@ -109,8 +109,8 @@
 
 						<!----------------
 						--- Experience ---
-						----------------->
-						<h2 id="experience" class="resume-heading">Experience</h2>
+						-----------------> <h2 id="experience" class="resume-heading">
+						Experience</h2>
 
 						<div id="experience-content" class="resume-content">
 							<!-- ITRSS -->
@@ -163,7 +163,8 @@
 
 							<!-- MS&T -->
 							<div class="main-entry" id="mst_student">
-								<p><b>Project Lead/Senior Projects:</b> Missouri S&amp;T Undergraduate Work</p>
+								<p><b>Project Lead/Senior Projects:</b> Missouri S&amp;T Undergraduate Work
+								</p>
 
 								<p class="date">Aug 2012 &ndash; May 2013</p>
 
@@ -298,8 +299,8 @@
 
 						<!----------------
 						--- Skills ---
-						----------------->
-						<h2 id="geek-skills" class="resume-heading">Skills</h2>
+						-----------------> <h2 id="geek-skills" class="resume-heading">
+						Skills</h2>
 
 						<div id="geek-skills-content" class="resume-content">
 							<dl>
@@ -325,22 +326,21 @@
 
 						<!----------------
 						--- References ---
-						----------------->
-						<h2 id="references" class="resume-heading">References</h2>
+						-----------------> <h2 id="references" class="resume-heading">
+						References</h2>
 
 						<div id="references-content" class="resume-content">
 							<p>References available upon request.</p>
 						</div>
 					</td>
-				</tr>
 
-				<tr>
 					<td class="margin"></td>
 
 					<td>
 						<p>Updated: 1/18/2013</p>
 					</td>
 				</tr>
+
 			</table>
 		</div>
 	</body>

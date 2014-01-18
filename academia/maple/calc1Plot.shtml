@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Academia - Maple</title>
@@ -6,23 +6,26 @@
 		<link href="stylesheet.css" rel="stylesheet" type="text/css">
 		<script type="text/javascript">
 
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-23696856-1']);
-		  _gaq.push(['_trackPageview']);
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-23696856-1']);
+			_gaq.push(['_trackPageview']);
 
-		  (function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
+			(function () {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
 
 		</script>
 	</head>
-	
+
 	<body>
-		
+
 		<!--#include virtual="headerAcademia.shtml" -->
-		
+
 		<table>
 			<tr>
 				<td id="mapleNav">
@@ -33,66 +36,72 @@
 					Begin editing of individual pages
 					----------------------------- -->
 					<h3>Calculus 1/Algebra: Plot</h3>
-					
-					<p>Plotting a function is one of the most basic things you'll be asked to do, and with the higher 
-					resolution on your monitor (as opposed to a TI-8X), graphs are actually useful. Here's the basics:</p>
+
+					<p>Plotting a function is one of the most basic things you'll be asked to do, and with the higher
+						resolution on your monitor (as opposed to a TI-8X), graphs are actually useful. Here's the
+						basics:</p>
 					<blockquote id="code">
 						restart
-						<br>y:=1/2*x^2+3
-						<br>plot(y,x=-5..5)
+						<br>
+						y:=1/2*x^2+3
+						<br>
+						plot(y,x=-5..5)
 					</blockquote>
-					<p>The plot command can take a lot of various arguments, but the two mains ones you will need to 
-					concern yourself with are the first two: y -- the function you are plotting, and x=-5..5 -- the 
-					independent variable (x-axis) and its range. Like many other commands, Maple will assume some 
-					arguments if they're left out. Try the command: <span id="code">plot(y)</span>. Notice it assumed 
-					you wanted x to be your independent variable, and it auto-calculated the range. If you don't know 
-					what a function looks like, this can be a good place to start. Then go back and edit the range until 
-					you have what you need.</p>
-					
+					<p>The plot command can take a lot of various arguments, but the two mains ones you will need to
+						concern yourself with are the first two: y -- the function you are plotting, and x=-5..5 -- the
+						independent variable (x-axis) and its range. Like many other commands, Maple will assume some
+						arguments if they're left out. Try the command: <span id="code">plot(y)</span>. Notice it
+						assumed you wanted x to be your independent variable, and it auto-calculated the range. If you
+						don't know what a function looks like, this can be a good place to start. Then go back and edit
+						the range until you have what you need.</p>
+
 					<p>If you need to compare two or more functions on one graph, this is also easily done.</p>
 					<blockquote id="code">
-						z:=1/3*x^2
-						plot({y,z},x=-5..5)
+						z:=1/3*x^2 plot({y,z},x=-5..5)
 					</blockquote>
-					
+
 					<p>A list of the extra arguments available are provided below:</p>
 					<dl>
 						<dt>color=[color1,color2]</dt>
-							<dd>This will set the color of your lines. When using this argument, be sure to also wrap your 
-							functions in square brackets rather than curly brackets. Curly brackets tells Maple you don't 
-							care about the order of what is inside, square brackets are the opposite. Try experimenting 
-							with curly brackets	and square brackets to find out for yourself.</dd>
+						<dd>This will set the color of your lines. When using this argument, be sure to also wrap your
+							functions in square brackets rather than curly brackets. Curly brackets tells Maple you
+							don't care about the order of what is inside, square brackets are the opposite. Try
+							experimenting with curly brackets and square brackets to find out for yourself.
+						</dd>
 						<dt>numpoints=X</dt>
-							<dd>Some functions move very rapidly, and will display a jagged line, such as exponentials. 
-							This forces Maple to use a higher resolution (calculate more points on the graph). Experiment 
-							with different numbers for "X" until you find a graph that is both reasonably smooth, and 
-							reasonably fast to load. If you start with a very high number, Maple will take a looong time 
-							draw the graph. Just be patient - it will eventually finish.</dd>
+						<dd>Some functions move very rapidly, and will display a jagged line, such as exponentials. This
+							forces Maple to use a higher resolution (calculate more points on the graph). Experiment
+							with different numbers for "X" until you find a graph that is both reasonably smooth, and
+							reasonably fast to load. If you start with a very high number, Maple will take a looong time
+							draw the graph. Just be patient - it will eventually finish.
+						</dd>
 						<dt>title="Cool Graph"</dt>
-							<dd>Not much to this one. It adds a title to your graph. Don't forget the quotes though, or 
-							it will try to display in math-type (which isn't a problem if that's what you're looking for).</dd>
+						<dd>Not much to this one. It adds a title to your graph. Don't forget the quotes though, or it
+							will try to display in math-type (which isn't a problem if that's what you're looking for).
+						</dd>
 						<dt>labels=["x","y"]</dt>
-							<dd>If you need to label your axis, try this one. Be sure to use square brackets on this, or
-							you might end up mixing your axis. Also feel free to replace "x" or "y" with "time" or "money" 
-							or "pounds" or whatever unit you're using.</dd>
+						<dd>If you need to label your axis, try this one. Be sure to use square brackets on this, or you
+							might end up mixing your axis. Also feel free to replace "x" or "y" with "time" or "money"
+							or "pounds" or whatever unit you're using.
+						</dd>
 					</dl>
-					
-					<p>You may also want to label your functions. The plot command does not have an argument for this 
-					specifically, however if you click on the plot, you can then choosing "Drawing" from the top-center of 
-					the window and select the text-box tool (capital "T" with a box around it). Click where you would 
-					like to create a text box, use the shortcut for math-type (control + r) and type out your function. You 
-					can then drag-and-drop the text box to a different position if need be. If you're not satisfied with 
-					the way Maple displays the title, or axis labels, this is a way to show them with more control over 
-					formatting.</p>
+
+					<p>You may also want to label your functions. The plot command does not have an argument for this
+						specifically, however if you click on the plot, you can then choosing "Drawing" from the
+						top-center of the window and select the text-box tool (capital "T" with a box around it). Click
+						where you would like to create a text box, use the shortcut for math-type (control + r) and type
+						out your function. You can then drag-and-drop the text box to a different position if need be.
+						If you're not satisfied with the way Maple displays the title, or axis labels, this is a way to
+						show them with more control over formatting.</p>
 					<!-- --------------------------
 					End editing of individual pages
-					--------------------------- --> 
+					--------------------------- -->
 				</td>
 			</tr>
 		</table>
-		
+
 		<!--#include virtual="footerAcademia.shtml" -->
-		
+
 	</body>
 
 </html>
