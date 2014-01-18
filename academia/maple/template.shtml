@@ -15,33 +15,30 @@
 			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		  })();
-
 		</script>
 	</head>
-	
+
 	<body>
-		
 		<!--#include virtual="headerAcademia.shtml" -->
-		
+
 		<table>
 			<tr>
 				<td id="mapleNav">
 					<!--#include virtual="mapleHeader.shtml" -->
 				</td>
+
 				<td id="content">
 					<!-- ----------------------------
 					Begin editing of individual pages
 					----------------------------- -->
-					
+
 					<!-- --------------------------
 					End editing of individual pages
-					--------------------------- --> 
+					--------------------------- -->
 				</td>
 			</tr>
 		</table>
-		
-		<!--#include virtual="footerAcademia.shtml" -->
-		
-	</body>
 
+		<!--#include virtual="footerAcademia.shtml" -->
+	</body>
 </html>

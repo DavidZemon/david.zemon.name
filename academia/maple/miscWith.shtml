@@ -15,14 +15,13 @@
 			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		  })();
-
 		</script>
 	</head>
-	
+
 	<body>
-		
+
 		<!--#include virtual="headerAcademia.shtml" -->
-		
+
 		<table>
 			<tr>
 				<td id="mapleNav">
@@ -33,53 +32,60 @@
 					Begin editing of individual pages
 					----------------------------- -->
 					<h3>Miscellaneous Commands: With</h3>
-					
-					<p>Maple doesn't load every single command upon start-up. It loads all the basics - solve, subs, 
-					int, diff, fsolve, plot, and lots more - but that doesn't mean that's all of them. There are hundreds, 
-					probably thousands more commands out there. If you have Maple installed, you've probably got most of 
-					these. You load groups, or packages, of them at a time. To do this, we use the command "with".</p>
+
+					<p>Maple doesn't load every single command upon start-up. It loads all the basics - solve, subs,
+						int, diff, fsolve, plot, and lots more - but that doesn't mean that's all of them. There are
+						hundreds, probably thousands more commands out there. If you have Maple installed, you've
+						probably got most of these. You load groups, or packages, of them at a time. To do this, we use
+						the command "with".</p>
 					<blockquote id="code">
 						restart
-						<br>f := x+y=5
-						<br>implicitplot(f,x=-5..5,y=-5..5)
+						<br>
+						f := x+y=5
+						<br>
+						implicitplot(f,x=-5..5,y=-5..5)
 					</blockquote>
-					
+
 					<p>Without loading the correct package, plots, the command doesn't do anything.
-					
+
 					<blockquote id="code">
 						with(plots)
-						<br>implicitplot(f,x=-5..5,y=-5..5)
+						<br>
+						implicitplot(f,x=-5..5,y=-5..5)
 					</blockquote>
-					
-					<p>First thing to note is the massive spell of blue words that Maple gives you when you load a new 
-					package. These are all the new commands now available to you (until you do your next restart).</p>
-					
-					<p>Now that we have the package loaded, a perfect plot of the function is drawn for us. You may only 
-					load one new package at a time - use of curly brackets to add a second package inside the same with 
-					command is not allowed.</p>
-					
-					<p>Adding a semi-colon to the end of your with commands is highly recommended. Most of the time, we 
-					don't care what commands are loaded, and so the multi-line list means nothing. This saves space and 
-					avoids adding any more confusion to your Maple code.</p>
-					
+
+					<p>First thing to note is the massive spell of blue words that Maple gives you when you load a new
+						package. These are all the new commands now available to you (until you do your next
+						restart).</p>
+
+					<p>Now that we have the package loaded, a perfect plot of the function is drawn for us. You may only
+						load one new package at a time - use of curly brackets to add a second package inside the same
+						with command is not allowed.</p>
+
+					<p>Adding a semi-colon to the end of your with commands is highly recommended. Most of the time, we
+						don't care what commands are loaded, and so the multi-line list means nothing. This saves space
+						and avoids adding any more confusion to your Maple code.</p>
+
 					<blockquote id="code">
 						restart;with(plots):
-						<br>f := x+y=5
-						<br>implicitplot(f,x=-5..5,y=-5..5)
+						<br>
+						f := x+y=5
+						<br>
+						implicitplot(f,x=-5..5,y=-5..5)
 					</blockquote>
-					
-					<p>Do please take notice: the colon at the end of the restart simply marks the end of a command, 
-					whereas the semi-colon at the end of with both marks the end of a command and says to hide the output 
-					of that command.</p>
+
+					<p>Do please take notice: the colon at the end of the restart simply marks the end of a command,
+						whereas the semi-colon at the end of with both marks the end of a command and says to hide the
+						output of that command.</p>
 					<!-- --------------------------
 					End editing of individual pages
-					--------------------------- --> 
+					--------------------------- -->
 				</td>
 			</tr>
 		</table>
-		
+
 		<!--#include virtual="footerAcademia.shtml" -->
-		
+
 	</body>
 
 </html>

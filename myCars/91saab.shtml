@@ -6,7 +6,7 @@
 		<title>David Zemon's '91 Saab</title>
 
 		<link href="http://david.zemon.name/stylesheet.css" rel="stylesheet" type="text/css">
-		
+
 		<script type="text/javascript">
 
 		  var _gaq = _gaq || [];
@@ -18,34 +18,36 @@
 			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		  })();
-
 		</script>
 	</head>
-	
+
 	<body>
 		<div class="page">
 			<!--#include virtual="../header.shtml" -->
-			
+
 			<div id="pageContent">
 				<!-------------------
 				BEGIN PAGE EDITS HERE
 				-------------------->
 				<h2>1991 Saab 900S</h2>
-				
+
 				<!--#include virtual="carsNav.shtml" -->
-				
-				<a href="http://swimdude0614.smugmug.com/Cars/My-Car/91-900/" target="_blank"><img alt="'91 Saab" src="91saab.jpg"></a>
-				
-				<p>This was my first car. My uncle gave it to me in May of 2007. It was his old car, and it was my 16th birthday
-				present. This car was my true love until one terrible morning, I was rear ended on the way to school. Because
-				these cars are monocoque, meaning the body panels are also the frame, the car was totaled.</p>
-		
-				<p>With the insurance money, I purchased Volkswagen's best-kept secret: a <a href="90corrado.shtml">Corrado</a>.</p>
+
+				<a href="http://swimdude0614.smugmug.com/Cars/My-Car/91-900/" target="_blank"><img alt="'91 Saab"
+																								   src="91saab.jpg"></a>
+
+				<p>This was my first car. My uncle gave it to me in May of 2007. It was his old car, and it was my 16th
+					birthday present. This car was my true love until one terrible morning, I was rear ended on the way
+					to school. Because these cars are monocoque, meaning the body panels are also the frame, the car was
+					totaled.</p>
+
+				<p>With the insurance money, I purchased Volkswagen's best-kept secret: a <a href="90corrado.shtml">Corrado</a>.
+				</p>
 				<!-------------------
 				-END PAGE EDITS HERE-
 				-------------------->
 			</div>
-			
+
 			<!--#include virtual="../footer.shtml" -->
 		</div>
 	</body>

@@ -15,7 +15,6 @@
 			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		  })();
-
 		</script>
 	</head>
 
@@ -34,23 +33,33 @@
 					----------------------------- -->
 					<h3>Nutella</h3>
 
-					<p>By now, you're probably getting pretty tired of Maple errors. They happen. A lot. Almost always it's a
-					user error, but we never admit it. They can be aggrivating and make you want to jump off a bridge, or
-					worse yet, throw your computer out the window of your seven story dorm room.</p>
+					<p>By now, you're probably getting pretty tired of Maple errors. They happen. A lot. Almost always
+						it's a user error, but we never admit it. They can be aggravating and make you want to jump off
+						a bridge, or worse yet, throw your computer out the window of your seven story dorm room.</p>
 
-					<p>But fear not! For Nutella is here to rescue you. Whenever you're feeling down, whenever you feel Maple
-					has had the best of you, just follow these simple instructs:</p>
+					<p>But fear not! For Nutella is here to rescue you. Whenever you're feeling down, whenever you feel
+						Maple has had the best of you, just follow these simple instructs:</p>
 
-					<p><i>How To: Make Nuttela Toast</i>
-					<br>Step 1) Buy (or bake) whole-grain bread
-					<br>Step 2) Buy Nutella (oh yea... see where this is going?)
-					<br>Step 3) Take a slice of bread, insert into toaster oven
-					<br>Step 4) Remove 30 seconds before finished
-					<br>Step 5) Glop copious of Nutella on one side of the bread
-					<br>Step 6) Return to toaster oven for 30 seconds
-					<br>Step 7) Remove and enjoy!</p>
+					<p><i>How To: Make Nutella Toast</i>
+						<br>
+						Step 1) Buy (or bake) whole-grain bread
+						<br>
+						Step 2) Buy Nutella (oh yea... see where this is going?)
+						<br>
+						Step 3) Take a slice of bread, insert into toaster oven
+						<br>
+						Step 4) Remove 30 seconds before finished
+						<br>
+						Step 5) Glop copious of Nutella on one side of the bread
+						<br>
+						Step 6) Return to toaster oven for 30 seconds
+						<br>
+						Step 7) Remove and enjoy!
+					</p>
 
-					<p><small>*Caution, contents will be hot. And won't last long. Make lots.</small></p>
+					<p>
+						<small>*Caution, contents will be hot. And won't last long. Make lots.</small>
+					</p>
 					<!-- --------------------------
 					End editing of individual pages
 					--------------------------- -->

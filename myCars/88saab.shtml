@@ -6,9 +6,8 @@
 		<title>David Zemon's '88 Saab</title>
 
 		<link href="http://david.zemon.name/stylesheet.css" rel="stylesheet" type="text/css">
-		
-		<script type="text/javascript">
 
+		<script type="text/javascript">
 		  var _gaq = _gaq || [];
 		  _gaq.push(['_setAccount', 'UA-23696856-1']);
 		  _gaq.push(['_trackPageview']);
@@ -18,30 +17,34 @@
 			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		  })();
-
 		</script>
 	</head>
-	
+
 	<body>
 		<div class="page">
 			<!--#include virtual="../header.shtml" -->
-			
+
 			<div id="pageContent">
 				<!-------------------
 				BEGIN PAGE EDITS HERE
 				-------------------->
 				<h2>1988 Saab 900S</h2>
-				
+
 				<!--#include virtual="carsNav.shtml" -->
-				
-				<a href="http://swimdude0614.smugmug.com/Cars/My-Car/88-Saab/" target="_blank"><img alt="'88 Saab" src="88saab.jpg"></a>
-				
-				<p>This was my third car. Very much like my other Saabs, but it doesn't have leather seats (that's a plus in my opinion), only the driver's side window is one-touch down, the sun-roof is not electric, it produces about 15 less hp (B202 engine instead of B212), and that's about it. Most everything I know about cars I learned on this one. I did all sorts of repairs to this car including: head gasket, timing chain, transmission, and various other bits.</p>
+
+				<a href="http://swimdude0614.smugmug.com/Cars/My-Car/88-Saab/" target="_blank"><img alt="'88 Saab"
+																									src="88saab.jpg"></a>
+
+				<p>This was my third car. Very much like my other Saabs, but it doesn't have leather seats (that's a
+					plus in my opinion), only the driver's side window is one-touch down, the sun-roof is not electric,
+					it produces about 15 less hp (B202 engine instead of B212), and that's about it. Most everything I
+					know about cars I learned on this one. I did all sorts of repairs to this car including: head
+					gasket, timing chain, transmission, and various other bits.</p>
 				<!-------------------
 				-END PAGE EDITS HERE-
 				-------------------->
 			</div>
-			
+
 			<!--#include virtual="../footer.shtml" -->
 		</div>
 	</body>

@@ -21,6 +21,12 @@
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		  })();
 
+
+
+
+
+
+
 		</script>
 	</head>
 
@@ -39,21 +45,17 @@
 					<li>Born and raised in St. Charles County, MO</li>
 				</ul>
 
-				<p>Saabs and computers. You'll hear me talk a lot more about Saabs though.
-				They're far easier to get passionate about than computers. For those that
-				are unaware, Saab is an automobile company. They make cars that cater to
-				drivers. They're not the fastest cars in the world. They're not the cheapest
-				(or the most expensive) cars in the world. They're not the most luxurious
-				cars in the world. They're not the largest and most spacious cars in the
-				world. They are, however, the best overall compromise of every aspect of
-				any car I have yet to see. Every personal item I own can be transported
-				inside my Saab. The same Saab that gets 30.1 mpg going 75mph for 3.5 hours.
-				The same Saab that flew me through the autocross track. The same (model)
-				Saab that has saved countless lives with its pioneering safety. This Saab
-				is a driver's car. It's fun to drive. And damn do I have fun driving it!</p>
+				<p>Saabs and computers. You'll hear me talk a lot more about Saabs though. They're far easier to get
+					passionate about than computers. For those that are unaware, Saab is an automobile company. They
+					make cars that cater to drivers. They're not the fastest cars in the world. They're not the cheapest
+					(or the most expensive) cars in the world. They're not the most luxurious cars in the world. They're
+					not the largest and most spacious cars in the world. They are, however, the best overall compromise
+					of every aspect of any car I have yet to see. Every personal item I own can be transported inside my
+					Saab. The same Saab that gets 30.1 mpg going 75mph for 3.5 hours. The same Saab that flew me through
+					the autocross track. The same (model) Saab that has saved countless lives with its pioneering
+					safety. This Saab is a driver's car. It's fun to drive. And damn do I have fun driving it!</p>
 
-				<p>As I mentioned above, I also enjoy computers. But... I'll write more
-				about that later.</p>
+				<p>As I mentioned above, I also enjoy computers. But... I'll write more about that later.</p>
 				<!-------------------
 				-END PAGE EDITS HERE-
 				-------------------->
