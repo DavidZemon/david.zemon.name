@@ -39,6 +39,7 @@
 	</li>
 	<li>Miscellaneous Commands
 		<ul>
+			<li><a href="miscIs.shtml">Is</a></li>
 			<li><a href="miscNumberConversions.shtml">Number Conversions</a></li>
 			<li><a href="miscWith.shtml">With</a></li>
 		</ul>
