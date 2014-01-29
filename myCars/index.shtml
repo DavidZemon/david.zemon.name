@@ -1,49 +1,49 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+    <head>
+        <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
 
-		<title>David Zemon's Cars</title>
+        <title>David Zemon's Cars</title>
 
-		<link href="http://david.zemon.name/stylesheet.css" rel="stylesheet" type="text/css">
+        <link href="http://david.zemon.name/stylesheet.css" rel="stylesheet" type="text/css">
 
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-23696856-1']);
-			_gaq.push(['_trackPageview']);
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-23696856-1']);
+            _gaq.push(['_trackPageview']);
 
-			(function () {
-				var ga = document.createElement('script');
-				ga.type = 'text/javascript';
-				ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0];
-				s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-	</head>
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </head>
 
-	<body>
-		<div class="page">
-			<!--#include virtual="../header.shtml" -->
+    <body>
+        <div class="page">
+            <!--#include virtual="../header.shtml" -->
 
-			<div id="pageContent">
-				<!-------------------
-				BEGIN PAGE EDITS HERE
-				-------------------->
-				<h2>My Cars</h2>
+            <div id="pageContent">
+                <!-------------------
+                BEGIN PAGE EDITS HERE
+                -------------------->
+                <h2>My Cars</h2>
 
-				<!--#include virtual="carsNav.shtml" -->
+                <!--#include virtual="carsNav.shtml" -->
 
-				<p>I've owned numerous cars in my time now. Six to be exact. Please feel free to peruse through my
-					collection and ask any question that may arise. Each thumbnail picture will bring you to a full
-					gallery for that car.</p>
-				<!-------------------
-				-END PAGE EDITS HERE-
-				-------------------->
-			</div>
+                <p>I've owned numerous cars in my time now. Six to be exact. Please feel free to peruse through my
+                    collection and ask any question that may arise. Each thumbnail picture will bring you to a full
+                    gallery for that car.</p>
+                <!-------------------
+                -END PAGE EDITS HERE-
+                -------------------->
+            </div>
 
-			<!--#include virtual="../footer.shtml" -->
-		</div>
-	</body>
+            <!--#include virtual="../footer.shtml" -->
+        </div>
+    </body>
 </html>

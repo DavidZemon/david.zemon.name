@@ -1,99 +1,99 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Academia - Maple</title>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<link href="stylesheet.css" rel="stylesheet" type="text/css">
-		<script type="text/javascript">
+    <head>
+        <title>Academia - Maple</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link href="stylesheet.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript">
 
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-23696856-1']);
-			_gaq.push(['_trackPageview']);
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-23696856-1']);
+            _gaq.push(['_trackPageview']);
 
-			(function () {
-				var ga = document.createElement('script');
-				ga.type = 'text/javascript';
-				ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0];
-				s.parentNode.insertBefore(ga, s);
-			})();
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
 
-		</script>
-	</head>
+        </script>
+    </head>
 
-	<body>
+    <body>
 
-		<!--#include virtual="headerAcademia.shtml" -->
+        <!--#include virtual="headerAcademia.shtml" -->
 
-		<table>
-			<tr>
-				<td id="mapleNav">
-					<!--#include virtual="mapleHeader.shtml" -->
-				</td>
-				<td id="content">
-					<!-- ----------------------------
-					Begin editing of individual pages
-					----------------------------- -->
-					<h3>Calculus 1/Algebra: Subs</h3>
+        <table>
+            <tr>
+                <td id="mapleNav">
+                    <!--#include virtual="mapleHeader.shtml" -->
+                </td>
+                <td id="content">
+                    <!-- ----------------------------
+                    Begin editing of individual pages
+                    ----------------------------- -->
+                    <h3>Calculus 1/Algebra: Subs</h3>
 
-					<p>Substituting in values is another one of the most commonly used Maple commands. Who wants to find
-						f(0), f(1), f(2), and f(3) for f(x) = (x^2 + 32x + 56) / (x^3 + 45x + 8) with their calculator?
-						Yea... not me. Try this:</p>
+                    <p>Substituting in values is another one of the most commonly used Maple commands. Who wants to find
+                        f(0), f(1), f(2), and f(3) for f(x) = (x^2 + 32x + 56) / (x^3 + 45x + 8) with their calculator?
+                        Yea... not me. Try this:</p>
 
-					<blockquote id="code">
-						restart
-						<br>
-						f:=(x^2 + 32x + 56) / (x^3 + 45x + 8)
-						<br>
-						subs(x=0,f)
-						<br>
-						subs(x=1,f)
-						<br>
-						subs(x=2,f);subs(x=3,f)
-					</blockquote>
+                    <blockquote id="code">
+                        restart
+                        <br>
+                        f:=(x^2 + 32x + 56) / (x^3 + 45x + 8)
+                        <br>
+                        subs(x=0,f)
+                        <br>
+                        subs(x=1,f)
+                        <br>
+                        subs(x=2,f);subs(x=3,f)
+                    </blockquote>
 
-					<p>The subs command also takes two arguments: the variable and its new value, and what function you
-						want to perform this substitution on.</p>
+                    <p>The subs command also takes two arguments: the variable and its new value, and what function you
+                        want to perform this substitution on.</p>
 
-					<p>Also take notice of the colon in the last line. The colon is used to tell Maple you're done with
-						a command and ready to start another. In this case, I wanted to type both substitutions on one
-						line. Another common place to use this is when given multiple values in a problem. Let's talk
-						quadratic equations:</p>
+                    <p>Also take notice of the colon in the last line. The colon is used to tell Maple you're done with
+                        a command and ready to start another. In this case, I wanted to type both substitutions on one
+                        line. Another common place to use this is when given multiple values in a problem. Let's talk
+                        quadratic equations:</p>
 
-					<blockquote id="code">
-						restart
-						<br>
-						f:=a*x^2 + b*x + c
-						<br>
-						subs({a=1,b=32,c=56},f)
-						<br>
-						solve(subs({a=1,b=32,c=56},f))
-						<br>
-						f
-						<br>
-						a:=1;b:=32;c:=56
-						<br>
-						solve(f)
-					</blockquote>
+                    <blockquote id="code">
+                        restart
+                        <br>
+                        f:=a*x^2 + b*x + c
+                        <br>
+                        subs({a=1,b=32,c=56},f)
+                        <br>
+                        solve(subs({a=1,b=32,c=56},f))
+                        <br>
+                        f
+                        <br>
+                        a:=1;b:=32;c:=56
+                        <br>
+                        solve(f)
+                    </blockquote>
 
-					<p>Notice first that the substitution of the subs command is not permanent. If values are
-						substituted in one command, they will revert back to their variable name in the following
-						command - be it on the same line or not. Also note that, like the solve command, curly brackets
-						can surround an argument, allowing you to substitute in multiple values at once. A third piece
-						to notice in this section is the use of "nested commands". Nested commands are highly
-						discouraged, as they can make your work very hard to read. Though it is possible to write an
-						entire assignment in one line of code, your teacher or professor would never forgive you (or
-						give you any points for that matter).</p>
-					<!-- --------------------------
-					End editing of individual pages
-					--------------------------- -->
-				</td>
-			</tr>
-		</table>
+                    <p>Notice first that the substitution of the subs command is not permanent. If values are
+                        substituted in one command, they will revert back to their variable name in the following
+                        command - be it on the same line or not. Also note that, like the solve command, curly brackets
+                        can surround an argument, allowing you to substitute in multiple values at once. A third piece
+                        to notice in this section is the use of "nested commands". Nested commands are highly
+                        discouraged, as they can make your work very hard to read. Though it is possible to write an
+                        entire assignment in one line of code, your teacher or professor would never forgive you (or
+                        give you any points for that matter).</p>
+                    <!-- --------------------------
+                    End editing of individual pages
+                    --------------------------- -->
+                </td>
+            </tr>
+        </table>
 
-		<!--#include virtual="footerAcademia.shtml" -->
+        <!--#include virtual="footerAcademia.shtml" -->
 
-	</body>
+    </body>
 
 </html>

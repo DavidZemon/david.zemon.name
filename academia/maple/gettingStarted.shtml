@@ -1,99 +1,99 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Academia - Maple</title>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<link href="stylesheet.css" rel="stylesheet" type="text/css">
-		<script type="text/javascript">
+    <head>
+        <title>Academia - Maple</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link href="stylesheet.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript">
 
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-23696856-1']);
-			_gaq.push(['_trackPageview']);
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-23696856-1']);
+            _gaq.push(['_trackPageview']);
 
-			(function () {
-				var ga = document.createElement('script');
-				ga.type = 'text/javascript';
-				ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0];
-				s.parentNode.insertBefore(ga, s);
-			})();
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
 
-		</script>
-	</head>
+        </script>
+    </head>
 
-	<body>
+    <body>
 
-		<!--#include virtual="headerAcademia.shtml" -->
+        <!--#include virtual="headerAcademia.shtml" -->
 
-		<table>
-			<tr>
-				<td id="mapleNav">
-					<!--#include virtual="mapleHeader.shtml" -->
-				</td>
-				<td id="content">
-					<!-- ----------------------------
-					Begin editing of individual pages
-					----------------------------- -->
-					<h3>Getting Started</h3>
+        <table>
+            <tr>
+                <td id="mapleNav">
+                    <!--#include virtual="mapleHeader.shtml" -->
+                </td>
+                <td id="content">
+                    <!-- ----------------------------
+                    Begin editing of individual pages
+                    ----------------------------- -->
+                    <h3>Getting Started</h3>
 
-					<p>Maple works via a series of commands, and after every command it returns a result. You can tell
-						Maple to add, subtract, multiply, divide, and so much more. For starters, try this, pressing the
-						'Enter' key after each line:
-						<br>
-						*Note: You do not need to include spaces
-					</p>
+                    <p>Maple works via a series of commands, and after every command it returns a result. You can tell
+                        Maple to add, subtract, multiply, divide, and so much more. For starters, try this, pressing the
+                        'Enter' key after each line:
+                        <br>
+                        *Note: You do not need to include spaces
+                    </p>
 
-					<blockquote id="code">
-						2 + 2
-						<br>
-						5^2
-						<br>
-						10^10
-						<br>
-						24288/352
-						<br>
-						1000!
-						<br>
-						(x + 5)^2
-						<br>
-					</blockquote>
+                    <blockquote id="code">
+                        2 + 2
+                        <br>
+                        5^2
+                        <br>
+                        10^10
+                        <br>
+                        24288/352
+                        <br>
+                        1000!
+                        <br>
+                        (x + 5)^2
+                        <br>
+                    </blockquote>
 
-					<p>As you can see, your commands are black text, formatted very similarly to the way math is written
-						on paper. The result, or the answer, is then returned in blue, centered on the page, one line
-						below the command. Now, let's say you use have a multi-step process that must be completed, and
-						you wish to show all your work. Let's use the following example:
-						<br>
-						Solve for x: 4x/57-80=0
-						<br>
-					<blockquote id="code">
-						f := 4x/57 - 80 = 0
-						<br>
-						h := f + 80
-						<br>
-						g := h*57
-						<br>
-						j := g/4
-						<br>
-					</blockquote>
-					<p>Notice how the <span id="code">:=</span> assigns a function, variable, or number to another
-						variable. You can also use variable names such as 'step1', 'step2', 'answer', 'MapleHatesMe' or
-						many others. Some names not suggested are: 'I' and 'D', or any Maple command (which you will
-						begin to learn in the next section).</p>
+                    <p>As you can see, your commands are black text, formatted very similarly to the way math is written
+                        on paper. The result, or the answer, is then returned in blue, centered on the page, one line
+                        below the command. Now, let's say you use have a multi-step process that must be completed, and
+                        you wish to show all your work. Let's use the following example:
+                        <br>
+                        Solve for x: 4x/57-80=0
+                        <br>
+                    <blockquote id="code">
+                        f := 4x/57 - 80 = 0
+                        <br>
+                        h := f + 80
+                        <br>
+                        g := h*57
+                        <br>
+                        j := g/4
+                        <br>
+                    </blockquote>
+                    <p>Notice how the <span id="code">:=</span> assigns a function, variable, or number to another
+                        variable. You can also use variable names such as 'step1', 'step2', 'answer', 'MapleHatesMe' or
+                        many others. Some names not suggested are: 'I' and 'D', or any Maple command (which you will
+                        begin to learn in the next section).</p>
 
-					<p>Inevitably, a time will come when you want to reuse a variable. To ensure your variables are not
-						carried over from one problem to another, begin every problem with the 'restart' command.
-						Restart clears all variables and closes any packages which you previously opened (you will learn
-						about extra packages later as well).</p>
-					<!-- --------------------------
-					End editing of individual pages
-					--------------------------- -->
-				</td>
-			</tr>
-		</table>
+                    <p>Inevitably, a time will come when you want to reuse a variable. To ensure your variables are not
+                        carried over from one problem to another, begin every problem with the 'restart' command.
+                        Restart clears all variables and closes any packages which you previously opened (you will learn
+                        about extra packages later as well).</p>
+                    <!-- --------------------------
+                    End editing of individual pages
+                    --------------------------- -->
+                </td>
+            </tr>
+        </table>
 
-		<!--#include virtual="footerAcademia.shtml" -->
+        <!--#include virtual="footerAcademia.shtml" -->
 
-	</body>
+    </body>
 
 </html>

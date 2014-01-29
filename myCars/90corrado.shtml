@@ -1,59 +1,59 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+    <head>
+        <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
 
-		<title>David Zemon's '90 Corrado</title>
+        <title>David Zemon's '90 Corrado</title>
 
-		<link href="http://david.zemon.name/stylesheet.css" rel="stylesheet" type="text/css">
+        <link href="http://david.zemon.name/stylesheet.css" rel="stylesheet" type="text/css">
 
-		<script type="text/javascript">
+        <script type="text/javascript">
 
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-23696856-1']);
-			_gaq.push(['_trackPageview']);
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-23696856-1']);
+            _gaq.push(['_trackPageview']);
 
-			(function () {
-				var ga = document.createElement('script');
-				ga.type = 'text/javascript';
-				ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0];
-				s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-	</head>
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </head>
 
-	<body>
-		<div class="page">
-			<!--#include virtual="../header.shtml" -->
+    <body>
+        <div class="page">
+            <!--#include virtual="../header.shtml" -->
 
-			<div id="pageContent">
-				<!-------------------
-				BEGIN PAGE EDITS HERE
-				-------------------->
-				<h2>1990 Volkswagen Corrado G60</h2>
+            <div id="pageContent">
+                <!-------------------
+                BEGIN PAGE EDITS HERE
+                -------------------->
+                <h2>1990 Volkswagen Corrado G60</h2>
 
-				<!--#include virtual="carsNav.shtml" -->
+                <!--#include virtual="carsNav.shtml" -->
 
-				<a href="http://swimdude0614.smugmug.com/Cars/My-Car/90-Corrado/" target="_blank"><img alt="'90 Corrado"
-																									   src="90corrado.jpg"></a>
+                <a href="http://swimdude0614.smugmug.com/Cars/My-Car/90-Corrado/" target="_blank"><img alt="'90 Corrado"
+                                                                                                       src="90corrado.jpg"></a>
 
-				<p>This was my second car - a 1990 Volkswagen Corrado G60. For it's day, and for the money, it couldn't
-					be beaten. Still today it is considered an excellent sports car. It is not a drag car. The engine is
-					big enough to be fun, but V8 or Saab turbo. The Corrado was a thorough-bred autocross car. With
-					tight cornering stability and luxury options to compete with any of the premium brands from the era,
-					I enjoyed every minute in the driver's seat of this beauty.</p>
+                <p>This was my second car - a 1990 Volkswagen Corrado G60. For it's day, and for the money, it couldn't
+                    be beaten. Still today it is considered an excellent sports car. It is not a drag car. The engine is
+                    big enough to be fun, but V8 or Saab turbo. The Corrado was a thorough-bred autocross car. With
+                    tight cornering stability and luxury options to compete with any of the premium brands from the era,
+                    I enjoyed every minute in the driver's seat of this beauty.</p>
 
-				<p>I had to sell mine when the throw out bearing wore out. My dad didn't think the car was worth fixing,
-					and so wouldn't give up his garage long enough for me to repair it. So, I sold it. That landed me
-					with my third car, another SAAB! :D</p>
-				<!-------------------
-				-END PAGE EDITS HERE-
-				-------------------->
-			</div>
+                <p>I had to sell mine when the throw out bearing wore out. My dad didn't think the car was worth fixing,
+                    and so wouldn't give up his garage long enough for me to repair it. So, I sold it. That landed me
+                    with my third car, another SAAB! :D</p>
+                <!-------------------
+                -END PAGE EDITS HERE-
+                -------------------->
+            </div>
 
-			<!--#include virtual="../footer.shtml" -->
-		</div>
-	</body>
+            <!--#include virtual="../footer.shtml" -->
+        </div>
+    </body>
 </html>

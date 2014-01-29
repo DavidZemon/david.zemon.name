@@ -1,11 +1,11 @@
 <div class="pro-header">
-	<img alt="Masthead" src="../images/masthead.jpg">
+    <img alt="Masthead" src="../images/masthead.jpg">
 
-	<ul>
-		<li><a href="http://david.zemon.name/">Home</a></li>
-		<li><a href="./">About</a></li>
-		<li><a href="portfolio.shtml">Portfolio</a></li>
-		<li><a href="resume.shtml">Resume</a></li>
-		<li><a href="contact.shtml">Contact</a></li>
-	</ul>
+    <ul>
+        <li><a href="http://david.zemon.name/">Home</a></li>
+        <li><a href="./">About</a></li>
+        <li><a href="portfolio.shtml">Portfolio</a></li>
+        <li><a href="resume.shtml">Resume</a></li>
+        <li><a href="contact.shtml">Contact</a></li>
+    </ul>
 </div>

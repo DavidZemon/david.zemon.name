@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+    <head>
+        <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
 
-		<title>David Zemon - Professional</title>
+        <title>David Zemon - Professional</title>
 
-		<link href="../stylesheet.css" rel="stylesheet" type="text/css">
+        <link href="../stylesheet.css" rel="stylesheet" type="text/css">
 
-		<script type="text/javascript" src="../jquery-1.10.2.min.js"></script>
-		<script type="text/javascript" src="../javascript.js"></script>
-		<script type="text/javascript">
+        <script type="text/javascript" src="../jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="../javascript.js"></script>
+        <script type="text/javascript">
 
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-23696856-1']);
-			_gaq.push(['_trackPageview']);
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-23696856-1']);
+            _gaq.push(['_trackPageview']);
 
-			(function () {
-				var ga = document.createElement('script');
-				ga.type = 'text/javascript';
-				ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0];
-				s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-	</head>
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </head>
 
-	<body>
-		<div class="page">
-			<!--#include virtual="header.shtml" -->
+    <body>
+        <div class="page">
+            <!--#include virtual="header.shtml" -->
 
-			<div id="pro-pageContent">
-				<!-------------------
-				BEGIN PAGE EDITS HERE
-				-------------------->
-				<h2>About David Zemon</h2>
+            <div id="pro-pageContent">
+                <!-------------------
+                BEGIN PAGE EDITS HERE
+                -------------------->
+                <h2>About David Zemon</h2>
 
-				<p>David Zemon is a application developer for Union Pacific Railroad in Omaha, Nebraska.</p>
-				<!-------------------
-				-END PAGE EDITS HERE-
-				-------------------->
-			</div>
-		</div>
-	</body>
+                <p>David Zemon is an application developer for Union Pacific Railroad in Omaha, Nebraska.</p>
+                <!-------------------
+                -END PAGE EDITS HERE-
+                -------------------->
+            </div>
+        </div>
+    </body>
 </html>

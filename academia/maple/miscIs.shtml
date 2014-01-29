@@ -1,60 +1,60 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Academia - Maple</title>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<link href="stylesheet.css" rel="stylesheet" type="text/css">
-		<script type="text/javascript">
+    <head>
+        <title>Academia - Maple</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link href="stylesheet.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript">
 
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-23696856-1']);
-			_gaq.push(['_trackPageview']);
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-23696856-1']);
+            _gaq.push(['_trackPageview']);
 
-			(function () {
-				var ga = document.createElement('script');
-				ga.type = 'text/javascript';
-				ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0];
-				s.parentNode.insertBefore(ga, s);
-			})();
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
 
-		</script>
-	</head>
+        </script>
+    </head>
 
-	<body>
+    <body>
 
-		<!--#include virtual="headerAcademia.shtml" -->
+        <!--#include virtual="headerAcademia.shtml" -->
 
-		<table>
-			<tr>
-				<td id="mapleNav">
-					<!--#include virtual="mapleHeader.shtml" -->
-				</td>
-				<td id="content">
-					<!-- ----------------------------
-					Begin editing of individual pages
-					----------------------------- -->
-					<h3>Miscellaneous Commands: Is</h3>
+        <table>
+            <tr>
+                <td id="mapleNav">
+                    <!--#include virtual="mapleHeader.shtml" -->
+                </td>
+                <td id="content">
+                    <!-- ----------------------------
+                    Begin editing of individual pages
+                    ----------------------------- -->
+                    <h3>Miscellaneous Commands: Is</h3>
 
-					<p>For simple equality comparisons, <span id="code">is</span> is a fantastic tool. Try a simple
-						comparison like the following.</p>
-					<blockquote id="code">
-						restart;
-						<br>
-						complexEq := (sqrt(45*x / y^3) + 4*y)^0;
-						<br>
-						is(complexEq = 1);
-					</blockquote>
-					<!-- --------------------------
-					End editing of individual pages
-					--------------------------- -->
-				</td>
-			</tr>
-		</table>
+                    <p>For simple equality comparisons, <span id="code">is</span> is a fantastic tool. Try a simple
+                        comparison like the following.</p>
+                    <blockquote id="code">
+                        restart;
+                        <br>
+                        complexEq := (sqrt(45*x / y^3) + 4*y)^0;
+                        <br>
+                        is(complexEq = 1);
+                    </blockquote>
+                    <!-- --------------------------
+                    End editing of individual pages
+                    --------------------------- -->
+                </td>
+            </tr>
+        </table>
 
-		<!--#include virtual="footerAcademia.shtml" -->
+        <!--#include virtual="footerAcademia.shtml" -->
 
-	</body>
+    </body>
 
 </html>

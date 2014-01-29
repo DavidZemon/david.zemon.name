@@ -1,85 +1,85 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Academia - Maple</title>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<link href="stylesheet.css" rel="stylesheet" type="text/css">
-		<script type="text/javascript">
+    <head>
+        <title>Academia - Maple</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link href="stylesheet.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript">
 
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-23696856-1']);
-			_gaq.push(['_trackPageview']);
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-23696856-1']);
+            _gaq.push(['_trackPageview']);
 
-			(function () {
-				var ga = document.createElement('script');
-				ga.type = 'text/javascript';
-				ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0];
-				s.parentNode.insertBefore(ga, s);
-			})();
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
 
-		</script>
-	</head>
+        </script>
+    </head>
 
-	<body>
+    <body>
 
-		<!--#include virtual="headerAcademia.shtml" -->
+        <!--#include virtual="headerAcademia.shtml" -->
 
-		<table>
-			<tr>
-				<td id="mapleNav">
-					<!--#include virtual="mapleHeader.shtml" -->
-				</td>
-				<td id="content">
-					<!-- ----------------------------
-					Begin editing of individual pages
-					----------------------------- -->
-					<h3>Differential Equations: Dsolve</h3>
+        <table>
+            <tr>
+                <td id="mapleNav">
+                    <!--#include virtual="mapleHeader.shtml" -->
+                </td>
+                <td id="content">
+                    <!-- ----------------------------
+                    Begin editing of individual pages
+                    ----------------------------- -->
+                    <h3>Differential Equations: Dsolve</h3>
 
-					<p>When it comes to DE, this is your savior. Only problem? You'll never be allowed to use it in your
-						DE course. Dsolve will solve any differential equation with initial values and spit out the
-						answer.</p>
-					<blockquote id="code">
-						restart
-						<br>
-						m:=1;b:=-3;k:=-4
-						<br>
-						de:=m*x''(t)+b*x'(t)+k*x(t)=0
-						<br>
-						dsolve(de,x(t))
-					</blockquote>
-					<p>Dsolve takes two arguments: your differential equation, and the function you wish to solve for.
-						It then returns the function requested in the second argument.</p>
+                    <p>When it comes to DE, this is your savior. Only problem? You'll never be allowed to use it in your
+                        DE course. Dsolve will solve any differential equation with initial values and spit out the
+                        answer.</p>
+                    <blockquote id="code">
+                        restart
+                        <br>
+                        m:=1;b:=-3;k:=-4
+                        <br>
+                        de:=m*x''(t)+b*x'(t)+k*x(t)=0
+                        <br>
+                        dsolve(de,x(t))
+                    </blockquote>
+                    <p>Dsolve takes two arguments: your differential equation, and the function you wish to solve for.
+                        It then returns the function requested in the second argument.</p>
 
-					<p>Adding initial conditions is not much of a problem. You can either add them directly into dsolve
-						command, or you can assign them to variables, as I prefer to do (this allows for easier copying
-						and pasting from problem to problem.</p>
-					<blockquote id="code">
-						restart;
-						<br>
-						m:=1;b:=-3;k:=-4
-						<br>
-						de:=m*x''(t)+b*x'(t)+k*x(t)=0
-						<br>
-						ic1:=10;ic2:=0
-						<br>
-						dsolve({de,x(0)=ic1,x'(0)=ic2},x(t))
-					</blockquote>
-					<p>Dsolve still takes only two arguments. The initial conditions are added into the first
-						argument.</p>
+                    <p>Adding initial conditions is not much of a problem. You can either add them directly into dsolve
+                        command, or you can assign them to variables, as I prefer to do (this allows for easier copying
+                        and pasting from problem to problem.</p>
+                    <blockquote id="code">
+                        restart;
+                        <br>
+                        m:=1;b:=-3;k:=-4
+                        <br>
+                        de:=m*x''(t)+b*x'(t)+k*x(t)=0
+                        <br>
+                        ic1:=10;ic2:=0
+                        <br>
+                        dsolve({de,x(0)=ic1,x'(0)=ic2},x(t))
+                    </blockquote>
+                    <p>Dsolve still takes only two arguments. The initial conditions are added into the first
+                        argument.</p>
 
-					<p>For more info on dsolve, contact me directly. You can also solve two or more DEs simultaneously,
-						or a system of DEs.</p>
-					<!-- --------------------------
-					End editing of individual pages
-					--------------------------- -->
-				</td>
-			</tr>
-		</table>
+                    <p>For more info on dsolve, contact me directly. You can also solve two or more DEs simultaneously,
+                        or a system of DEs.</p>
+                    <!-- --------------------------
+                    End editing of individual pages
+                    --------------------------- -->
+                </td>
+            </tr>
+        </table>
 
-		<!--#include virtual="footerAcademia.shtml" -->
+        <!--#include virtual="footerAcademia.shtml" -->
 
-	</body>
+    </body>
 
 </html>

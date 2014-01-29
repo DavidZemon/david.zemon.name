@@ -16,10 +16,9 @@ $(document).ready(function () {
     /**************/
     /*** Resume ***/
     /**************/
-        // Define functons
+        // Define functions
     function toggleStuffs() {
-        var id = $(this).attr("id");
-        var idContent = id + "-content";
+        var idContent = $(this).attr("id") + "-content";
         if ("none" == $("#" + idContent).css("display")) {
             $(".resume-content").hide();
             $("#" + idContent).show();
@@ -30,11 +29,6 @@ $(document).ready(function () {
 
     // Show/hide sections
     $(".resume-heading").click(toggleStuffs);
-
-    /****************/
-    /*** PropWare ***/
-    /****************/
-    $(document).tooltip();
 
     /**************************/
     /*** Recreational pages ***/
