@@ -32,18 +32,15 @@
             <div id="pro-pageContent">
                 <!---------------------------
                 --- BEGIN PAGE EDITS HERE ---
-                ---------------------------->
+                --------------------------- ->
                 <h2>Portfolio</h2>
 
-                <div id="stefi">
-                    <h3>Automotive Data Logger</h3>
+                <div id="propware">
+                    <h3>PropWare</h3>
 
-                    <p>Full documentation coming soon. For now, please accept this brief summary: Due to a lack of
-                        generic library support in C/C++ for the Parallax Propeller, David created his own library for
-                        software SPI communication and then proceeded to build an SD card driver and finally,
-                        implemented full read/write FAT16 and FAT32 filesystem firmware. Source code is freely available
-                        from his Git repository <a href="https://github.com/SwimDude0614/PropWare"
-                                                   target="_blank">here</a>.</p>
+                    <p>PropWare is fantastic. See full documentation <a 
+                    href="https://david.zemon.name/professional/PropWare/docs/html/index.html" target="_blank">here</a>.
+                    </p>
                 </div>
 
                 <div id="segway">
