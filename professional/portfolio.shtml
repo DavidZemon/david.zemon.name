@@ -32,15 +32,14 @@
             <div id="pro-pageContent">
                 <!---------------------------
                 --- BEGIN PAGE EDITS HERE ---
-                --------------------------- ->
+                ---------------------------->
                 <h2>Portfolio</h2>
 
                 <div id="propware">
                     <h3>PropWare</h3>
 
                     <p>PropWare is fantastic. See full documentation <a 
-                    href="https://david.zemon.name/professional/PropWare/docs/html/index.html" target="_blank">here</a>.
-                    </p>
+                    href="http://david.zemon.name/professional/PropWare/docs/html/" target="_blank">here</a>.</p>
                 </div>
 
                 <div id="segway">
