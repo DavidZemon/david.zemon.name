@@ -10,6 +10,15 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
+        <!-- Business Casual Theme -->
+        <link rel="stylesheet" href="css/business-casual.css">
+
+        <!-- Fonts -->
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+              rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic"
+              rel="stylesheet" type="text/css">
+
         <script type="text/javascript">
 
             var _gaq = _gaq || [];
@@ -28,68 +37,69 @@
     </head>
 
     <body>
-        <div class="container">
-            <h1>David Zemon
-                <small>Go away, I'm programming</small>
-            </h1>
-            <nav class="navbar navbar-default">
-                <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                data-target="#main_navbar"
-                                aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#/">Home</a>
-                    </div>
+        <div class="brand">David Zemon</div>
+        <div class="address-bar">Go away, I'm programming</div>
 
-                    <div class="collapse navbar-collapse" id="main_navbar">
-                        <ul class="nav navbar-nav">
-                            <li role="presentation" ng-class="{active: $root.page === 'resume'}">
-                                <a href="#/resume">Resume</a>
-                            </li>
-                            <li role="presentation" ng-class="{active: $root.page === 'academia', dropdown: true}">
-                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                                   aria-expanded="false">
-                                    Academia <span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#/academia">Overview</a></li>
-                                    <li><a href="#/academia/gradesheet">Gradesheet</a></li>
-                                    <li><a href="#/academia/maple">Maple</a></li>
-                                </ul>
-                            </li>
-                            <li role="presentation" ng-class="{active: $root.page === 'mycars', dropdown: true}">
-                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                                   aria-expanded="false">
-                                    My Cars <span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#/">1991 Saab 900 S</a></li>
-                                    <li><a href="#/">1990 Volkswagen Corrado G60</a></li>
-                                    <li><a href="#/">1988 Saab 900 S</a></li>
-                                    <li><a href="#/">1993 Saab 900 S</a></li>
-                                    <li><a href="#/">1991 Saab 900 Turbo</a></li>
-                                    <li><a href="#/">1989 Saab 900 S</a></li>
-                                    <li><a href="#/">1989 Saab 900 SPG</a></li>
-                                    <li><a href="#/">2004 Volvo S60 R</a></li>
-                                </ul>
-                            </li>
-                            <li role="presentation"><a href="http://saabguy.blogspot.com/" target="_blank">Blog</a></li>
-                            <li role="presentation"><a href="http://davidzemon.smugmug.com/" target="_blank">Gallery</a>
-                            <li role="presentation"><a href="http://katiemarriesdavid.com/" target="_blank">I'm
-                            getting married!</a>
-                            </li>
-                        </ul>
-                    </div>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#main_navbar"
+                            aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#/">David Zemon</a>
                 </div>
-            </nav>
 
-            <div ng-view></div>
+                <div class="collapse navbar-collapse" id="main_navbar">
+                    <ul class="nav navbar-nav">
+                        <li role="presentation"><a href="#/">Home</a></li>
+                        <li role="presentation" ng-class="{active: $root.page === 'resume'}">
+                            <a href="#/resume">Resume</a>
+                        </li>
+                        <li role="presentation" ng-class="{active: $root.page === 'academia', dropdown: true}">
+                            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                               aria-expanded="false">
+                                Academia <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#/academia">Overview</a></li>
+                                <li><a href="#/academia/gradesheet">Gradesheet</a></li>
+                                <li><a href="#/academia/maple">Maple</a></li>
+                            </ul>
+                        </li>
+                        <li role="presentation" ng-class="{active: $root.page === 'mycars', dropdown: true}">
+                            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                               aria-expanded="false">
+                                My Cars <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#/">1991 Saab 900 S</a></li>
+                                <li><a href="#/">1990 Volkswagen Corrado G60</a></li>
+                                <li><a href="#/">1988 Saab 900 S</a></li>
+                                <li><a href="#/">1993 Saab 900 S</a></li>
+                                <li><a href="#/">1991 Saab 900 Turbo</a></li>
+                                <li><a href="#/">1989 Saab 900 S</a></li>
+                                <li><a href="#/">1989 Saab 900 SPG</a></li>
+                                <li><a href="#/">2004 Volvo S60 R</a></li>
+                            </ul>
+                        </li>
+                        <li role="presentation"><a href="http://saabguy.blogspot.com/" target="_blank">Blog</a></li>
+                        <li role="presentation"><a href="http://davidzemon.smugmug.com/" target="_blank">Gallery</a>
+                        <li role="presentation"><a href="http://katiemarriesdavid.com/" target="_blank">I'm
+                            getting married!</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row" ng-view></div>
         </div>
 
         <!-- JQuery -->
@@ -107,5 +117,13 @@
         <script src="src/academia/gradesheet/gradesheet.js"></script>
         <script src="src/academia/gradesheet/changelog/changelog.js"></script>
         <script src="src/resume/resume.js"></script>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
     </body>
 </html>
