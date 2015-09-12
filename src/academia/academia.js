@@ -2,7 +2,8 @@
 
 angular.module('davidzemon.academia', [
         'ngRoute',
-        'davidzemon.academia.gradesheet'
+        'davidzemon.academia.gradesheet',
+        'davidzemon.academia.maple'
     ])
     .config(['$routeProvider',
         function ($routeProvider) {
