@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+
+        <title>David Zemon's Resume</title>
+
+        <link href="http://david.zemon.name/stylesheet.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="../jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="../javascript.js"></script>
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push([ '_setAccount', 'UA-23696856-1' ]);
+            _gaq.push([ '_trackPageview' ]);
+
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+                        : 'http://www')
+                        + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </head>
+
+    <body>
+        <div class="page" id="resume">
+            <table>
+                <tr class="resume-header">
+                    <td class="margin"></td>
+
+                    <!-------------------------
+                    --- Contact Information ---
+                    -------------------------->
+                    <td>
+                        <h1>David Zemon</h1>
+
+                        <div id="contact">
+
+                            <p>(636) 395-0126
+                                <br>
+                                <a href="mailto:david.zemon@mst.edu">david.zemon@mst.edu</a>
+                                <br>
+                                Download a <a href="../downloads/David-Zemon--Resume-digital.pdf">complete copy</a> or
+                                <a href="../downloads/David-Zemon--Resume.pdf">shortened (printable)</a> version of this
+                                resume
+                            </p>
+                        </div>
+
+                        <div id="address">
+                            <p>4404 S 16<sup>St</sup>, Apt 2,
+                                <br>
+                                Omaha, NE 68107
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="margin"></td>
+
+                    <td>
+                        <!---------------
+                        --- Objective ---
+                        ---------------->
+                        <h2 id="objective" class="resume-heading">
+                            Objective</h2>
+
+                        <div id="objective-content" class="resume-content">
+                            <div class="main-entry">
+                                <p>A new objective is coming soon... for now, I've got my diploma!</p>
+
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+
+                        <!---------------
+                        --- Education ---
+                        ---------------->
+                        <h2 id="education" class="resume-heading">
+                            Education</h2>
+
+                        <div id="education-content" class="resume-content">
+                            <div class="main-entry">
+                                <p>Missouri University of Science and Technology &ndash; Rolla, Missouri</p>
+
+                                <p class="date"><span style="font-weight: normal;">Jan 2011 &ndash; </span>December 2013
+                                </p>
+
+                                <div class="clear"></div>
+
+                                <p>Junior B.S. in Computer Engineering</p>
+
+                                <p class="date" style="font-weight: normal;">Cumulative GPA: 3.06; In-major: 3.44 (4.0
+                                    scale)</p>
+
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="main-entry">
+                                <p>Rose-Hulman Institute of Technology &ndash; Terre Haute, Indiana</p>
+
+                                <p class="date" style="font-weight: normal;">Jul 2009 &ndash; Nov 2010</p>
+
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+
+                        <!----------------
+                        --- Experience ---
+                        ----------------->
+                        <h2 id="experience" class="resume-heading">
+                            Experience</h2>
+
+                        <div id="experience-content" class="resume-content">
+                            <!-- ITRSS -->
+                            <div class="main-entry" id="itrss">
+                                <p><b>Project Lead/Student Technician:</b> Missouri S&amp;T IT Research Support Services
+                                </p>
+
+                                <p class="date">Jan 2012 &ndash; present</p>
+
+                                <div class="clear"></div>
+
+                                <ul>
+                                    <li>Promoted to project lead in May 2012; Began Segway project in August 2013</li>
+                                    <li>Lead a successful student team of up to five programmers in the design and
+                                        implementation of a turn-key big data 3-D visualization tool (V4DiR)
+                                    </li>
+                                    <li>Co-presented V4DiR project at Super Computing 2012 conference</li>
+                                    <li>Specified and selected hardware including: graphics cards, networking
+                                        technology, display technology
+                                    </li>
+                                    <li>Designed and programmed the Xdmf Transformer (Python 2.7)
+                                        <ul>
+                                            <li>Convert datasets with variable forms to ParaView readable Xdmf format
+                                            </li>
+                                            <li>Optimized for gigabyte and terabyte scale datasets</li>
+                                        </ul>
+                                    </li>
+                                    <li>Implemented prototype visual gesture recognition interface for ParaView software
+                                        using Microsoft Kinect and OpenNI library
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- NISC -->
+                            <div class="main-entry" id="nisc">
+                                <p><b>Intern:</b> National Information Solutions Cooperative</p>
+
+                                <p class="date">May 2013 &ndash; Jul 2013</p>
+
+                                <div class="clear"></div>
+
+                                <ul>
+                                    <li>Implemented production-ready web application displaying electric meter usage
+                                        predictions
+                                    </li>
+                                    <li>Redesigned back-end for simplicity and readability</li>
+                                    <li>Streamlined performance while maintaining compatibility</li>
+                                </ul>
+                            </div>
+
+                            <!-- MS&T -->
+                            <div class="main-entry" id="mst_student">
+                                <p><b>Project Lead/Senior Projects:</b> Missouri S&amp;T Undergraduate Work
+                                </p>
+
+                                <p class="date">Aug 2012 &ndash; May 2013</p>
+
+                                <div class="clear"></div>
+
+                                <ul>
+                                    <li>Lead development of embedded automotive data logger
+                                        <ul>
+                                            <li>Individually developed optimized library for software-controlled SPI
+                                            </li>
+                                            <li>Utilized the SPI library to develop and deploy an SD card driver and FAT
+                                                filesystem firmware
+                                            </li>
+                                            <li>Co-designed engine simulation software for easy testability of
+                                                electronic fuel injection
+                                            </li>
+                                            <li>Co-developed inter-processor communication to read engine parameters
+                                                during run-time
+                                            </li>
+                                            <li>Log engine parameters in real-time using both an SD card and UART bus
+                                            </li>
+                                            <li>Co-designed system architecture; Co-selected technologies including
+                                                Parallax Propeller, TI MSP430 &amp; LM4F, C, and Java
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>Designed and implemented Computed Interpretive Dance
+                                        <ul>
+                                            <li>Generate music in real-time based on movements detected by accelerometer
+                                                worn by a musician
+                                            </li>
+                                            <li>Co-designed system architecture; Co-selected technologies including TI
+                                                ARM Cortex-M4F
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- STL Swede Speed -->
+                            <div class="main-entry" id="stlswedespeed">
+                                <p><b>Co-President &amp; Webmaster:</b> STL Swede Speed</p>
+
+                                <p class="date">Jul 2008 &ndash; Jul 2012</p>
+
+                                <div class="clear"></div>
+
+                                <ul>
+                                    <li>Co-founded organization and grew from five to 30 members in one year</li>
+                                    <li>Organized club events and arranged for meeting spots</li>
+                                    <li>Moderated forums</li>
+                                </ul>
+                            </div>
+
+                            <!-- SDELC -->
+                            <div class="main-entry" id="sdelc">
+                                <p><b>Newsletter Design &amp; Webmaster:</b> Student Design and Experiential Learning
+                                    Center</p>
+
+                                <p class="date">Feb 2011 &ndash; Dec 2011</p>
+
+                                <div class="clear"></div>
+
+                                <ul>
+                                    <li>Maintained all website content</li>
+                                    <li>Implemented a cleaner website template</li>
+                                    <li>Designed and produced brochures and newsletters for print</li>
+                                </ul>
+                            </div>
+
+                            <!-- TRM -->
+                            <div class="main-entry" id="trm">
+                                <p><b>Project Lead, Treasurer, Webmaster:</b> Team Rose Motorsports</p>
+
+                                <p class="date">Apr 2010 &ndash; Nov 2010</p>
+
+                                <div class="clear"></div>
+
+                                <ul>
+                                    <li>Lead rebuild process and diagnosis of RX-7 engine</li>
+                                    <li>Responsible for balancing budget and reimbursing students for budgeted items
+                                    </li>
+                                    <li>Honed strong leadership skills</li>
+                                    <li>Managed website and mailing list</li>
+                                    <li>Stayed current in all aspects related to team</li>
+                                </ul>
+                            </div>
+
+                            <!-- David's Wash and Wax-->
+                            <div class="main-entry" id="wash_and_wax">
+                                <p><b>Owner:</b> David's Wash and Wax</p>
+
+                                <p class="date">Jun 2010 &ndash; Sep 2010</p>
+
+                                <div class="clear"></div>
+
+                                <ul>
+                                    <li>Founded business detailing client's automobiles in late June, turned profit
+                                        within two months
+                                    </li>
+                                    <li>Concluded the still-growing business with a backlog of repeat customers</li>
+                                </ul>
+                            </div>
+
+                            <!-- David's Custom Build Computers-->
+                            <div class="main-entry" id="custom_built_comps">
+                                <p><b>Owner:</b> David's Custom Built Computers</p>
+
+                                <p class="date">Sep 2006 &ndash; Jul 2009</p>
+
+                                <div class="clear"></div>
+                            </div>
+
+                            <!-- Fazoli's -->
+                            <div class="main-entry" id="fazolis">
+                                <p><b>Back of the House:</b> Fazoli's</p>
+
+                                <p class="date">Dec 2008 &ndash; Jun 2009</p>
+
+                                <div class="clear"></div>
+                            </div>
+
+                            <!-- YMCA -->
+                            <div class="main-entry" id="ymca">
+                                <p><b>Lifeguard:</b> St. Charles County Family YMCA</p>
+
+                                <p class="date">Jun 2007 &ndash; Jul 2008</p>
+
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+
+                        <!----------------
+                        --- Skills ---
+                        ----------------->
+                        <h2 id="geek-skills" class="resume-heading">
+                            Skills</h2>
+
+                        <div id="geek-skills-content" class="resume-content">
+                            <dl>
+                                <dt>Programming Languages:</dt>
+                                <dd>C++, Embedded C, ARM Asm, 8051 Asm, Propeller Asm, TI MSP430 Asm, Python 2.7, Java,
+                                    Verilog, MATLAB
+                                </dd>
+
+                                <dt>Software:</dt>
+                                <dd>Highly proficient with Microsoft Windows XP/7/8; Ubuntu Linux (BASH and GUI),
+                                    Eclipse (CDT, PyDev, Web Dev), IntelliJ Idea, Keil ARM &amp; 8051, MPLab, Quartus
+                                    II, ModelSim, Maple, Git, Make, CMake
+                                </dd>
+
+                                <dt>Key Engineering Courses:</dt>
+                                <dd>Embedded Processor System Design, Principles of Computer Architecture, Digital
+                                    Computer Design, Intro to VLSI, Digital Systems Design, Operating Systems
+                                </dd>
+
+                                <dt>Excellent written and oral communication skills.</dt>
+                            </dl>
+                        </div>
+
+                        <!----------------
+                        --- References ---
+                        ----------------->
+                        <h2 id="references" class="resume-heading">
+                            References</h2>
+
+                        <div id="references-content" class="resume-content">
+                            <p>References available upon request.</p>
+                        </div>
+                    </td>
+
+                    <td class="margin"></td>
+
+                    <td>
+                        <p>Updated: 1/18/2013</p>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </body>
+</html>

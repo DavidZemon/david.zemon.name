@@ -5,5 +5,5 @@
 *.komodoproject
 
 /downloads
-/professional/PropWare
+/src/professional/PropWare
 /doxygen
