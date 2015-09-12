@@ -61,7 +61,8 @@ angular.module('davidzemon.academia.gradesheet.changelog', [
 angular.module('davidzemon.academia.maple', [
         'ngRoute',
         'davidzemon.academia.maple.setup',
-        'davidzemon.academia.maple.gettingStarted'
+        'davidzemon.academia.maple.gettingStarted',
+        'davidzemon.academia.maple.formatting'
     ])
     .config(['$routeProvider', function ($routeProvider) {
         $routeProvider.when('/academia/maple', {
@@ -84,6 +85,19 @@ angular.module('davidzemon.academia.maple.gettingStarted', [
     .config(['$routeProvider', function ($routeProvider) {
         $routeProvider.when('/academia/maple/gettingStarted', {
             templateUrl: 'src/academia/maple/gettingStarted/gettingStarted.html'
+        })
+    }]);
+
+angular.module('davidzemon.academia.maple.formatting', [
+    'davidzemon.academia.maple.formatting.general'
+]);
+
+angular.module('davidzemon.academia.maple.formatting.general', [
+        'ngRoute'
+    ])
+    .config(['$routeProvider', function ($routeProvider) {
+        $routeProvider.when('/academia/maple/formatting/general', {
+            templateUrl: 'src/academia/maple/formatting/general/general.html'
         })
     }]);
 
