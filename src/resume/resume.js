@@ -6,7 +6,7 @@ angular.module('davidzemon.resume', [
     .config(['$routeProvider',
         function ($routeProvider) {
             $routeProvider
-                .when('/welcome', {
+                .when('/resume', {
                     templateUrl: 'src/resume/resume.html',
                     controller: 'ResumeCtrl',
                     controllerAs: 'resume'

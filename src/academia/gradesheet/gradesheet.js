@@ -1,7 +1,8 @@
 'use strict';
 
 angular.module('davidzemon.academia.gradesheet', [
-        'ngRoute'
+        'ngRoute',
+    'davidzemon.academia.gradesheet.changelog'
     ])
     .config(['$routeProvider',
         function ($routeProvider) {

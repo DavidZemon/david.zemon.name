@@ -1,7 +1,0 @@
-<div id="secondaryNav">
-    <ul>
-        <li><a href="" id="gradesheetNav">Academia Home</a></li>
-        <li><a href="gradeSheet.shtml" id="gradesheetNav">Grade Sheet</a></li>
-        <li><a href="maple" id="mapleNav">Maple</a></li>
-    </ul>
-</div>
