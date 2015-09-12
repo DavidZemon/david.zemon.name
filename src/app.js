@@ -2,7 +2,8 @@
 
 angular.module('davidzemon', [
         'davidzemon.welcome',
-        'davidzemon.academia'
+        'davidzemon.academia',
+        'davidzemon.resume'
     ])
     .config(['$routeProvider',
         function ($routeProvider) {
