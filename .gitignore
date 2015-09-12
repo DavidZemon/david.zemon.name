@@ -1,3 +1,9 @@
+.idea/
+*.iml
+.settings/
+.project
+*.komodoproject
+
 /downloads
 /professional/PropWare
 /doxygen
