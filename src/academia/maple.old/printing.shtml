@@ -65,7 +65,7 @@
                         </li>
                     </ol>
 
-                    <img src="mapleImages/printerStyle1.jpg" alt="Printer style 1">
+                    <img src="../../../images/maple/printerStyle1.jpg" alt="Printer style 1">
 
                     <h4>Printer Style 2</h4>
 
@@ -73,7 +73,7 @@
                         from the printer dialogue, you see the following window, all you must do is choose "Finishing"
                         at the top and select "2 pages per sheet" in the middle of the dialalogue box.</p>
 
-                    <img src="mapleImages/printerStyle2.jpg" alt="Printer style 2">
+                    <img src="../../../images/maple/printerStyle2.jpg" alt="Printer style 2">
                     <!-- --------------------------
                     End editing of individual pages
                     --------------------------- -->

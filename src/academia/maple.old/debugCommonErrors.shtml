@@ -70,7 +70,7 @@
                             the exact command which you typed, most likely you've forgotten to load a package. For
                             example, if your sheet looks like this:
                             <br>
-                            <img src="mapleImages/packageNotLoaded.jpg">
+                            <img src="../../../images/maple/packageNotLoaded.jpg">
                             <br>
                             This means you forgot to add <span id="code">with(inttrans):</span> after your restart
                             command. The laplace command has not been loaded into Maple yet.

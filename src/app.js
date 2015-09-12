@@ -60,11 +60,21 @@ angular.module('davidzemon.academia.gradesheet.changelog', [
 
 angular.module('davidzemon.academia.maple', [
         'ngRoute',
+        'davidzemon.academia.maple.setup',
         'davidzemon.academia.maple.gettingStarted'
     ])
     .config(['$routeProvider', function ($routeProvider) {
         $routeProvider.when('/academia/maple', {
             templateUrl: 'src/academia/maple/maple.html'
+        })
+    }]);
+
+angular.module('davidzemon.academia.maple.setup', [
+        'ngRoute'
+    ])
+    .config(['$routeProvider', function ($routeProvider) {
+        $routeProvider.when('/academia/maple/setup', {
+            templateUrl: 'src/academia/maple/setup/setup.html'
         })
     }]);
 
