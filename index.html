@@ -37,6 +37,7 @@
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#main_navbar"
                                 aria-expanded="false">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
@@ -46,8 +47,11 @@
                         <a class="navbar-brand" href="#/">Home</a>
                     </div>
 
-                    <div class="collapse navbar-collapse">
+                    <div class="collapse navbar-collapse" id="main_navbar">
                         <ul class="nav navbar-nav">
+                            <li role="presentation" ng-class="{active: $root.page === 'resume'}">
+                                <a href="#/resume">Resume</a>
+                            </li>
                             <li role="presentation" ng-class="{active: $root.page === 'academia', dropdown: true}">
                                 <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                                    aria-expanded="false">
@@ -58,23 +62,20 @@
                                     <li><a href="#/academia/gradesheet">Gradesheet</a></li>
                                 </ul>
                             </li>
-                            <li role="presentation" ng-class="{active: $root.page === 'resume'}">
-                                <a href="#/resume">Resume</a>
-                            </li>
                             <li role="presentation" ng-class="{active: $root.page === 'mycars', dropdown: true}">
                                 <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                                    aria-expanded="false">
                                     My Cars <span class="caret"></span>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="src/myCars/91saab.shtml">1991 Saab 900 S</a></li>
-                                    <li><a href="src/myCars/90corrado.shtml">1990 Volkswagen Corrado G60</a></li>
-                                    <li><a href="src/myCars/88saab.shtml">1988 Saab 900 S</a></li>
-                                    <li><a href="src/myCars/93saab.shtml">1993 Saab 900 S</a></li>
-                                    <li><a href="src/myCars/91turbo.shtml">1991 Saab 900 Turbo</a></li>
-                                    <li><a href="src/myCars/89saab.shtml">1989 Saab 900 S</a></li>
-                                    <li><a href="src/myCars/89spg.shtml">1989 Saab 900 SPG</a></li>
-                                    <li><a href="src/myCars/04s60r.shtml">2004 Volvo S60 R</a></li>
+                                    <li><a href="#/">1991 Saab 900 S</a></li>
+                                    <li><a href="#/">1990 Volkswagen Corrado G60</a></li>
+                                    <li><a href="#/">1988 Saab 900 S</a></li>
+                                    <li><a href="#/">1993 Saab 900 S</a></li>
+                                    <li><a href="#/">1991 Saab 900 Turbo</a></li>
+                                    <li><a href="#/">1989 Saab 900 S</a></li>
+                                    <li><a href="#/">1989 Saab 900 SPG</a></li>
+                                    <li><a href="#/">2004 Volvo S60 R</a></li>
                                 </ul>
                             </li>
                             <li role="presentation"><a href="http://saabguy.blogspot.com/" target="_blank">Blog</a></li>
