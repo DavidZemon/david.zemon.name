@@ -8,7 +8,9 @@ angular.module('davidzemon', [
     'davidzemon.cars'
 ])
     .config(['$routeProvider', function ($routeProvider) {
-        $routeProvider.otherwise({redirectTo: '/welcome'})
+        $routeProvider.otherwise(
+            {redirectTo: '/welcome'}
+        );
     }]);
 
 angular.module('davidzemon.welcome', [
@@ -32,14 +34,14 @@ angular.module('davidzemon.resume', [
 angular.module('davidzemon.techTips', [
     'davidzemon.techTips.c_cpp'
 ])
-    .config(['$routeProvider', function($routeProvider) {
+    .config(['$routeProvider', function ($routeProvider) {
         $routeProvider.when('/techTips', {
             templateUrl: 'src/techTips/techTips.html'
         });
     }]);
 
 angular.module('davidzemon.techTips.c_cpp', [])
-    .config(['$routeProvider', function($routeProvider) {
+    .config(['$routeProvider', function ($routeProvider) {
         $routeProvider.when('/techTips/c-cpp', {
             templateUrl: 'src/techTips/c-cpp/c-cpp.html'
         });
