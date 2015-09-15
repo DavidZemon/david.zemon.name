@@ -1,6 +1,8 @@
 'use strict';
 
 angular.module('davidzemon', [
+    'angulartics', 
+    'angulartics.google.analytics',
     'davidzemon.welcome',
     'davidzemon.techTips',
     'davidzemon.academia',
