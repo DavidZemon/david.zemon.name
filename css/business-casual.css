@@ -101,6 +101,14 @@ h1,
     margin: 0 auto 0;
 }
 
+.left {
+    float: none;
+}
+
+.right {
+    float: right;
+}
+
 footer {
     background: #fff;
     background: rgba(255,255,255,0.9);
