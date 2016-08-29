@@ -1,5 +1,8 @@
 Options +Indexes
-DirectoryIndex index.shtml index.html
+DirectoryIndex index.shtml index.html index.xhtml
 
 RewriteEngine on
 RedirectMatch 404 /\\.(svn|git|hg|bzr|cvs)(/|$)
+
+RedirectMatch 301 ^/PropWare-develop.*$ http://david.zemon.name/PropWare
+
