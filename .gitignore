@@ -9,3 +9,10 @@
 /doxygen
 
 downloads/
+
+# Stuff that is also stored on the website, but not in Git
+MathJax/
+PropWare-develop.old/
+PropWare.old/
+PropWare/
+PropWareIDE/
