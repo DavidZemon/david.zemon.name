@@ -5,5 +5,8 @@ RewriteEngine on
 RedirectMatch 404 /\\.(svn|git|hg|bzr|cvs)(/|$)
 
 RedirectMatch 301 ^/PropWare-develop.*$ http://david.zemon.name/PropWare
-RedirectMatch 301 ^/PropWare/.*xhtml$ http://david.zemon.name/PropWare
+RedirectMatch 301 ^/PropWare/Download\.xhtml$ http://david.zemon.name/PropWare
+RedirectMatch 301 ^/PropWare/GettingStarted\.xhtml$ http://david.zemon.name/PropWare
+RedirectMatch 301 ^/PropWare/usergroup0\.xhtml$ http://david.zemon.name/PropWare
+RedirectMatch 301 ^/PropWare/usergroup1\.xhtml$ http://david.zemon.name/PropWare
 
